@@ -213,3 +213,7 @@ com.google.gson.JsonSyntaxException: Missing expand, expected to find a Boolean
 [24Jan2025 01:51:53.613] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (15.103s)! For help, type "help"
 [24Jan2025 01:51:53.654] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
 [24Jan2025 01:51:53.692] [Server thread/INFO] [net.bettercombat.logic.WeaponRegistry/]: Encoded Weapon Attribute registry size (with package overhead): 19386 bytes (in 2 string chunks with the size of 10000)
+[24Jan2025 02:10:25.703] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.player.Player from class tschipp.carryon.common.carry.CarryOnDataManager
+[24Jan2025 02:10:25.808] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Joaking[/127.35.111.33:44313] logged in with entity id 183 at (353.5, 65.0, 1955.5)
+[24Jan2025 02:10:25.895] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Joaking joined the game
+[24Jan2025 02:10:25.982] [Server thread/INFO] [Jade/]: Syncing config to Joaking (bb25bdb7-3aaa-3db7-b895-6ae3167c8512)
