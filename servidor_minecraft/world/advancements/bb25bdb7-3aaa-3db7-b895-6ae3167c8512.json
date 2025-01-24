@@ -34,6 +34,7 @@
       "shrubland": "2025-01-22 20:22:10 +0000",
       "pine_taiga": "2025-01-22 20:22:54 +0000",
       "muddy_river": "2025-01-22 19:47:01 +0000",
+      "autumnal_maple_forest": "2025-01-22 20:55:07 +0000",
       "willow_forest": "2025-01-22 20:12:08 +0000",
       "grassy_beach": "2025-01-22 20:25:01 +0000",
       "blackwood_taiga": "2025-01-22 20:09:59 +0000",
@@ -54,6 +55,7 @@
       "shrubland": "2025-01-22 20:22:10 +0000",
       "pine_taiga": "2025-01-22 20:22:54 +0000",
       "muddy_river": "2025-01-22 19:47:01 +0000",
+      "autumnal_maple_forest": "2025-01-22 20:55:07 +0000",
       "willow_forest": "2025-01-22 20:12:08 +0000",
       "grassy_beach": "2025-01-22 20:25:01 +0000",
       "blackwood_taiga": "2025-01-22 20:09:59 +0000",
@@ -1255,6 +1257,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/food/cooked_mutton_from_smoking": {
+    "criteria": {
+      "has_mutton": "2025-01-22 20:54:40 +0000"
+    },
+    "done": true
+  },
   "refurbished_furniture:recipes/misc/constructing/yellow_lamp": {
     "criteria": {
       "has_white_wool": "2025-01-22 20:05:22 +0000"
@@ -1441,6 +1449,12 @@
     },
     "done": true
   },
+  "minecraft:adventure/kill_all_mobs": {
+    "criteria": {
+      "minecraft:spider": "2025-01-22 21:00:58 +0000"
+    },
+    "done": false
+  },
   "minecraft:recipes/building_blocks/birch_wood": {
     "criteria": {
       "has_log": "2025-01-22 20:43:50 +0000"
@@ -1450,6 +1464,12 @@
   "biomesoplenty:recipes/transportation/umbran_boat": {
     "criteria": {
       "in_water": "2025-01-22 19:52:47 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/gray_carpet": {
+    "criteria": {
+      "has_gray_wool": "2025-01-22 20:54:40 +0000"
     },
     "done": true
   },
@@ -1795,6 +1815,12 @@
     },
     "done": true
   },
+  "travelersbackpack:recipes/decorations/gray_sleeping_bag": {
+    "criteria": {
+      "has_gray_wool": "2025-01-22 20:54:40 +0000"
+    },
+    "done": true
+  },
   "regions_unexplored:recipes/building_blocks/maple_wood": {
     "criteria": {
       "has_log": "2025-01-22 20:46:20 +0000"
@@ -1846,6 +1872,12 @@
   "refurbished_furniture:recipes/misc/constructing/magenta_sofa": {
     "criteria": {
       "has_white_wool": "2025-01-22 20:05:22 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/gray_banner": {
+    "criteria": {
+      "has_gray_wool": "2025-01-22 20:54:40 +0000"
     },
     "done": true
   },
@@ -2009,6 +2041,12 @@
   "farmersdelight:recipes/cooking/dog_food": {
     "criteria": {
       "has_any_ingredient": "2025-01-22 19:51:52 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/gray_bed": {
+    "criteria": {
+      "has_gray_wool": "2025-01-22 20:54:40 +0000"
     },
     "done": true
   },
@@ -2570,6 +2608,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/food/cooked_mutton": {
+    "criteria": {
+      "has_mutton": "2025-01-22 20:54:40 +0000"
+    },
+    "done": true
+  },
   "biomesoplenty:recipes/transportation/mahogany_boat": {
     "criteria": {
       "in_water": "2025-01-22 19:52:47 +0000"
@@ -2684,6 +2728,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/food/cooked_mutton_from_campfire_cooking": {
+    "criteria": {
+      "has_mutton": "2025-01-22 20:54:40 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/spruce_door": {
     "criteria": {
       "has_planks": "2025-01-22 20:05:39 +0000"
@@ -2693,6 +2743,12 @@
   "minecraft:recipes/redstone/spruce_fence_gate": {
     "criteria": {
       "has_planks": "2025-01-22 20:05:39 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/pasta_with_mutton_chop": {
+    "criteria": {
+      "has_any_ingredient": "2025-01-22 20:54:40 +0000"
     },
     "done": true
   },
@@ -2771,6 +2827,12 @@
   "farmersdelight:recipes/food/mutton_wrap": {
     "criteria": {
       "has_mutton": "2025-01-22 20:05:22 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/kill_a_mob": {
+    "criteria": {
+      "minecraft:spider": "2025-01-22 21:00:58 +0000"
     },
     "done": true
   },
