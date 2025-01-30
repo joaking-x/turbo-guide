@@ -1,7 +1,103 @@
 {
+  "refurbished_furniture:recipes/misc/constructing/purple_stool": {
+    "criteria": {
+      "has_wheat": "2025-01-30 16:30:08 +0000"
+    },
+    "done": true
+  },
+  "regions_unexplored:recipes/transportation/maple_boat": {
+    "criteria": {
+      "in_water": "2025-01-30 16:28:16 +0000"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/green_stool": {
+    "criteria": {
+      "has_wheat": "2025-01-30 16:30:08 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/golden_axe": {
+    "criteria": {
+      "has_gold_ingot": "2025-01-30 16:30:35 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/golden_pickaxe": {
+    "criteria": {
+      "has_gold_ingot": "2025-01-30 16:30:35 +0000"
+    },
+    "done": true
+  },
+  "alexsmobs:alexsmobs/orcas_might": {
+    "criteria": {
+      "all_effects": "2025-01-30 16:31:51 +0000"
+    },
+    "done": true
+  },
   "refurbished_furniture:recipes/misc/slicing/red_dye_from_sweet_berries": {
     "criteria": {
       "has_sweet_berries": "2025-01-30 16:25:45 +0000"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/transportation/willow_boat": {
+    "criteria": {
+      "in_water": "2025-01-30 16:28:16 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_nugget": {
+    "criteria": {
+      "has_gold_ingot": "2025-01-30 16:30:35 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/golden_shovel": {
+    "criteria": {
+      "has_gold_ingot": "2025-01-30 16:30:35 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/golden_apple": {
+    "criteria": {
+      "has_gold_ingot": "2025-01-30 16:30:35 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/snow": {
+    "criteria": {
+      "has_snowball": "2025-01-30 16:28:35 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/golden_boots": {
+    "criteria": {
+      "has_gold_ingot": "2025-01-30 16:30:35 +0000"
+    },
+    "done": true
+  },
+  "regions_unexplored:recipes/transportation/magnolia_boat": {
+    "criteria": {
+      "in_water": "2025-01-30 16:28:16 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:main/get_fd_seed": {
+    "criteria": {
+      "onion": "2025-01-30 16:28:40 +0000"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/yellow_sofa": {
+    "criteria": {
+      "has_wheat": "2025-01-30 16:30:08 +0000"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/orange_sofa": {
+    "criteria": {
+      "has_wheat": "2025-01-30 16:30:08 +0000"
     },
     "done": true
   },
@@ -11,9 +107,93 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/chest": {
+    "criteria": {
+      "has_lots_of_items": "2025-01-30 16:28:40 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/cherry_boat": {
+    "criteria": {
+      "in_water": "2025-01-30 16:28:16 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/golden_chestplate": {
+    "criteria": {
+      "has_gold_ingot": "2025-01-30 16:30:35 +0000"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/transportation/umbran_boat": {
+    "criteria": {
+      "in_water": "2025-01-30 16:28:16 +0000"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/misc/gold": {
+    "criteria": {
+      "has_gold_ingot": "2025-01-30 16:30:35 +0000"
+    },
+    "done": true
+  },
   "mowziesmobs:root": {
     "criteria": {
       "custom_test_name": "2025-01-30 16:23:03 +0000"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/baking/baked_potato": {
+    "criteria": {
+      "has_ingredient": "2025-01-30 16:28:36 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/bamboo_raft": {
+    "criteria": {
+      "in_water": "2025-01-30 16:28:16 +0000"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/magenta_stool": {
+    "criteria": {
+      "has_wheat": "2025-01-30 16:30:08 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/baked_cod_stew": {
+    "criteria": {
+      "has_any_ingredient": "2025-01-30 16:28:36 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/combat/golden_knife": {
+    "criteria": {
+      "has_gold_ingot": "2025-01-30 16:30:35 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/bread": {
+    "criteria": {
+      "has_wheat": "2025-01-30 16:30:08 +0000"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/transportation/dead_boat": {
+    "criteria": {
+      "in_water": "2025-01-30 16:28:16 +0000"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/transportation/magic_boat": {
+    "criteria": {
+      "in_water": "2025-01-30 16:28:16 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/hay_block": {
+    "criteria": {
+      "has_wheat": "2025-01-30 16:30:08 +0000"
     },
     "done": true
   },
@@ -23,9 +203,105 @@
     },
     "done": false
   },
+  "regions_unexplored:recipes/transportation/kapok_boat": {
+    "criteria": {
+      "in_water": "2025-01-30 16:28:16 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/light_weighted_pressure_plate": {
+    "criteria": {
+      "has_gold_ingot": "2025-01-30 16:30:35 +0000"
+    },
+    "done": true
+  },
+  "regions_unexplored:recipes/transportation/cypress_boat": {
+    "criteria": {
+      "in_water": "2025-01-30 16:28:16 +0000"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/red_sofa": {
+    "criteria": {
+      "has_wheat": "2025-01-30 16:30:08 +0000"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/lime_stool": {
+    "criteria": {
+      "has_wheat": "2025-01-30 16:30:08 +0000"
+    },
+    "done": true
+  },
+  "lootr:social": {
+    "criteria": {
+      "opened_chest": "2025-01-30 16:28:29 +0000"
+    },
+    "done": false
+  },
+  "refurbished_furniture:recipes/misc/constructing/light_gray_sofa": {
+    "criteria": {
+      "has_wheat": "2025-01-30 16:30:08 +0000"
+    },
+    "done": true
+  },
+  "regions_unexplored:recipes/transportation/larch_boat": {
+    "criteria": {
+      "in_water": "2025-01-30 16:28:16 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/campfire": {
+    "criteria": {
+      "has_coal": "2025-01-30 16:28:38 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/dumplings": {
+    "criteria": {
+      "has_any_ingredient": "2025-01-30 16:28:40 +0000"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/heating/baked_potato": {
+    "criteria": {
+      "has_ingredient": "2025-01-30 16:28:36 +0000"
+    },
+    "done": true
+  },
   "biomesoplenty:biomesoplenty/root": {
     "criteria": {
       "snowy_coniferous_forest": "2025-01-30 16:25:01 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/golden_sword": {
+    "criteria": {
+      "has_gold_ingot": "2025-01-30 16:30:35 +0000"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/transportation/pine_boat": {
+    "criteria": {
+      "in_water": "2025-01-30 16:28:16 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/gold_block": {
+    "criteria": {
+      "has_gold_ingot": "2025-01-30 16:30:35 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/acacia_boat": {
+    "criteria": {
+      "in_water": "2025-01-30 16:28:16 +0000"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/magenta_sofa": {
+    "criteria": {
+      "has_wheat": "2025-01-30 16:30:08 +0000"
     },
     "done": true
   },
@@ -35,9 +311,105 @@
     },
     "done": true
   },
+  "refurbished_furniture:recipes/misc/constructing/cyan_stool": {
+    "criteria": {
+      "has_wheat": "2025-01-30 16:30:08 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/food/pie_crust": {
+    "criteria": {
+      "has_wheat": "2025-01-30 16:30:08 +0000"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/green_sofa": {
+    "criteria": {
+      "has_wheat": "2025-01-30 16:30:08 +0000"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/slicing/bread_slice_from_bread": {
+    "criteria": {
+      "has_bread": "2025-01-30 16:28:36 +0000"
+    },
+    "done": true
+  },
   "regions_unexplored:parent": {
     "criteria": {
       "load_in_world": "2025-01-30 16:23:04 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/jungle_boat": {
+    "criteria": {
+      "in_water": "2025-01-30 16:28:16 +0000"
+    },
+    "done": true
+  },
+  "regions_unexplored:recipes/transportation/blackwood_boat": {
+    "criteria": {
+      "in_water": "2025-01-30 16:28:16 +0000"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/misc/hay": {
+    "criteria": {
+      "has_wheat": "2025-01-30 16:30:08 +0000"
+    },
+    "done": true
+  },
+  "lootr:1chest": {
+    "criteria": {
+      "opened_chest": "2025-01-30 16:28:29 +0000"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/blue_stool": {
+    "criteria": {
+      "has_wheat": "2025-01-30 16:30:08 +0000"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/misc/coal": {
+    "criteria": {
+      "has_coal": "2025-01-30 16:28:38 +0000"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/brown_stool": {
+    "criteria": {
+      "has_wheat": "2025-01-30 16:30:08 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/fish_stew": {
+    "criteria": {
+      "has_any_ingredient": "2025-01-30 16:28:40 +0000"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/orange_stool": {
+    "criteria": {
+      "has_wheat": "2025-01-30 16:30:08 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/baked_potato_from_campfire_cooking": {
+    "criteria": {
+      "has_potato": "2025-01-30 16:28:36 +0000"
+    },
+    "done": true
+  },
+  "regions_unexplored:recipes/transportation/pine_boat": {
+    "criteria": {
+      "in_water": "2025-01-30 16:28:16 +0000"
+    },
+    "done": true
+  },
+  "regions_unexplored:recipes/transportation/eucalyptus_boat": {
+    "criteria": {
+      "in_water": "2025-01-30 16:28:16 +0000"
     },
     "done": true
   },
@@ -47,17 +419,132 @@
     },
     "done": true
   },
+  "farmersdelight:recipes/food/wheat_dough_from_eggs": {
+    "criteria": {
+      "has_wheat": "2025-01-30 16:30:08 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/baked_potato": {
+    "criteria": {
+      "has_potato": "2025-01-30 16:28:36 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/golden_helmet": {
+    "criteria": {
+      "has_gold_ingot": "2025-01-30 16:30:35 +0000"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/pink_sofa": {
+    "criteria": {
+      "has_wheat": "2025-01-30 16:30:08 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/smoker": {
+    "criteria": {
+      "has_furnace": "2025-01-30 16:28:41 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/emerald_block": {
+    "criteria": {
+      "has_emerald": "2025-01-30 16:30:01 +0000"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/lime_sofa": {
+    "criteria": {
+      "has_wheat": "2025-01-30 16:30:08 +0000"
+    },
+    "done": true
+  },
+  "regions_unexplored:recipes/transportation/palm_boat": {
+    "criteria": {
+      "in_water": "2025-01-30 16:28:16 +0000"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/misc/snow": {
+    "criteria": {
+      "has_snowball": "2025-01-30 16:28:35 +0000"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/transportation/fir_boat": {
+    "criteria": {
+      "in_water": "2025-01-30 16:28:16 +0000"
+    },
+    "done": true
+  },
   "biomesoplenty:biomesoplenty/all_biomes": {
     "criteria": {
       "muskeg": "2025-01-30 16:27:22 +0000",
+      "cold_desert": "2025-01-30 16:29:00 +0000",
       "snowy_coniferous_forest": "2025-01-30 16:25:01 +0000",
       "snowy_maple_woods": "2025-01-30 16:27:16 +0000"
     },
     "done": false
   },
+  "farmersdelight:recipes/food/wheat_dough_from_water": {
+    "criteria": {
+      "has_wheat": "2025-01-30 16:30:08 +0000"
+    },
+    "done": true
+  },
+  "regions_unexplored:recipes/transportation/socotra_boat": {
+    "criteria": {
+      "in_water": "2025-01-30 16:28:16 +0000"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/misc/emerald": {
+    "criteria": {
+      "has_emerald": "2025-01-30 16:30:01 +0000"
+    },
+    "done": true
+  },
   "lootr:root": {
     "criteria": {
       "always_true": "2025-01-30 16:23:03 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/food/barbecue_stick": {
+    "criteria": {
+      "has_onion": "2025-01-30 16:28:40 +0000"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/transportation/maple_boat": {
+    "criteria": {
+      "in_water": "2025-01-30 16:28:16 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/spruce_boat": {
+    "criteria": {
+      "in_water": "2025-01-30 16:28:16 +0000"
+    },
+    "done": true
+  },
+  "regions_unexplored:recipes/transportation/oak_boat": {
+    "criteria": {
+      "in_water": "2025-01-30 16:28:16 +0000"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/brown_sofa": {
+    "criteria": {
+      "has_wheat": "2025-01-30 16:30:08 +0000"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/door_mat": {
+    "criteria": {
+      "has_wheat": "2025-01-30 16:30:08 +0000"
     },
     "done": true
   },
@@ -67,15 +554,201 @@
     },
     "done": true
   },
+  "minecraft:recipes/transportation/birch_boat": {
+    "criteria": {
+      "in_water": "2025-01-30 16:28:16 +0000"
+    },
+    "done": true
+  },
+  "regions_unexplored:recipes/transportation/dead_boat": {
+    "criteria": {
+      "in_water": "2025-01-30 16:28:16 +0000"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/blue_sofa": {
+    "criteria": {
+      "has_wheat": "2025-01-30 16:30:08 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/oak_boat": {
+    "criteria": {
+      "in_water": "2025-01-30 16:28:16 +0000"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/doorbell": {
+    "criteria": {
+      "has_gold_ingot": "2025-01-30 16:30:35 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/paper": {
+    "criteria": {
+      "has_reeds": "2025-01-30 16:28:23 +0000"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/transportation/redwood_boat": {
+    "criteria": {
+      "in_water": "2025-01-30 16:28:16 +0000"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/light_blue_stool": {
+    "criteria": {
+      "has_wheat": "2025-01-30 16:30:08 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/coal_block": {
+    "criteria": {
+      "has_coal": "2025-01-30 16:28:38 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/fried_rice": {
+    "criteria": {
+      "has_any_ingredient": "2025-01-30 16:28:40 +0000"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/red_stool": {
+    "criteria": {
+      "has_wheat": "2025-01-30 16:30:08 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/mangrove_boat": {
+    "criteria": {
+      "in_water": "2025-01-30 16:28:16 +0000"
+    },
+    "done": true
+  },
+  "regions_unexplored:recipes/transportation/mauve_boat": {
+    "criteria": {
+      "in_water": "2025-01-30 16:28:16 +0000"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/light_blue_sofa": {
+    "criteria": {
+      "has_wheat": "2025-01-30 16:30:08 +0000"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/black_sofa": {
+    "criteria": {
+      "has_wheat": "2025-01-30 16:30:08 +0000"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/transportation/hellbark_boat": {
+    "criteria": {
+      "in_water": "2025-01-30 16:28:16 +0000"
+    },
+    "done": true
+  },
+  "regions_unexplored:recipes/transportation/redwood_boat": {
+    "criteria": {
+      "in_water": "2025-01-30 16:28:16 +0000"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/purple_sofa": {
+    "criteria": {
+      "has_wheat": "2025-01-30 16:30:08 +0000"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/transportation/jacaranda_boat": {
+    "criteria": {
+      "in_water": "2025-01-30 16:28:16 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/beef_stew": {
+    "criteria": {
+      "has_any_ingredient": "2025-01-30 16:28:36 +0000"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/freezing/blue_ice": {
+    "criteria": {
+      "has_result": "2025-01-30 16:29:22 +0000"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/transportation/mahogany_boat": {
+    "criteria": {
+      "in_water": "2025-01-30 16:28:16 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/sugar_from_sugar_cane": {
+    "criteria": {
+      "has_sugar_cane": "2025-01-30 16:28:23 +0000"
+    },
+    "done": true
+  },
   "regions_unexplored:regions_explored": {
     "criteria": {
       "cold_boreal_taiga": "2025-01-30 16:23:23 +0000"
     },
     "done": false
   },
+  "lootr:10loot": {
+    "criteria": {
+      "loot_stat": "2025-01-30 16:30:07 +0000"
+    },
+    "done": true
+  },
   "farmersdelight:main/root": {
     "criteria": {
       "seeds": "2025-01-30 16:23:03 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/baked_potato_from_smoking": {
+    "criteria": {
+      "has_potato": "2025-01-30 16:28:36 +0000"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/light_gray_stool": {
+    "criteria": {
+      "has_wheat": "2025-01-30 16:30:08 +0000"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/transportation/palm_boat": {
+    "criteria": {
+      "in_water": "2025-01-30 16:28:16 +0000"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/transportation/empyreal_boat": {
+    "criteria": {
+      "in_water": "2025-01-30 16:28:16 +0000"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/white_stool": {
+    "criteria": {
+      "has_wheat": "2025-01-30 16:30:08 +0000"
+    },
+    "done": true
+  },
+  "regions_unexplored:recipes/transportation/baobab_boat": {
+    "criteria": {
+      "in_water": "2025-01-30 16:28:16 +0000"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/yellow_stool": {
+    "criteria": {
+      "has_wheat": "2025-01-30 16:30:08 +0000"
     },
     "done": true
   },
@@ -85,12 +758,49 @@
     },
     "done": false
   },
+  "farmersdelight:recipes/cooking/ratatouille": {
+    "criteria": {
+      "has_any_ingredient": "2025-01-30 16:28:40 +0000"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/gray_stool": {
+    "criteria": {
+      "has_wheat": "2025-01-30 16:30:08 +0000"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/white_sofa": {
+    "criteria": {
+      "has_wheat": "2025-01-30 16:30:08 +0000"
+    },
+    "done": true
+  },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
       "minecraft:frozen_river": "2025-01-30 16:27:19 +0000",
+      "minecraft:frozen_ocean": "2025-01-30 16:28:05 +0000",
       "minecraft:snowy_beach": "2025-01-30 16:23:04 +0000"
     },
     "done": false
+  },
+  "travelersbackpack:recipes/misc/gold_tier_upgrade": {
+    "criteria": {
+      "has_gold_ingot": "2025-01-30 16:30:35 +0000"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/cyan_sofa": {
+    "criteria": {
+      "has_wheat": "2025-01-30 16:30:08 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/golden_hoe": {
+    "criteria": {
+      "has_gold_ingot": "2025-01-30 16:30:35 +0000"
+    },
+    "done": true
   },
   "refurbished_furniture:recipes/frying/sweet_berry_jam": {
     "criteria": {
@@ -100,9 +810,70 @@
   },
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
-      "sweet_berries": "2025-01-30 16:25:50 +0000"
+      "sweet_berries": "2025-01-30 16:25:50 +0000",
+      "bread": "2025-01-30 16:28:57 +0000"
     },
     "done": false
+  },
+  "refurbished_furniture:recipes/misc/constructing/black_stool": {
+    "criteria": {
+      "has_wheat": "2025-01-30 16:30:08 +0000"
+    },
+    "done": true
+  },
+  "regions_unexplored:recipes/transportation/willow_boat": {
+    "criteria": {
+      "in_water": "2025-01-30 16:28:16 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/building_blocks/onion_crate": {
+    "criteria": {
+      "has_onion": "2025-01-30 16:28:40 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/vegetable_soup": {
+    "criteria": {
+      "has_any_ingredient": "2025-01-30 16:28:40 +0000"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/gray_sofa": {
+    "criteria": {
+      "has_wheat": "2025-01-30 16:30:08 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/snow_block": {
+    "criteria": {
+      "has_snowball": "2025-01-30 16:28:35 +0000"
+    },
+    "done": true
+  },
+  "regions_unexplored:recipes/transportation/joshua_boat": {
+    "criteria": {
+      "in_water": "2025-01-30 16:28:16 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/dark_oak_boat": {
+    "criteria": {
+      "in_water": "2025-01-30 16:28:16 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/golden_leggings": {
+    "criteria": {
+      "has_gold_ingot": "2025-01-30 16:30:35 +0000"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/pink_stool": {
+    "criteria": {
+      "has_wheat": "2025-01-30 16:30:08 +0000"
+    },
+    "done": true
   },
   "DataVersion": 3465
 }

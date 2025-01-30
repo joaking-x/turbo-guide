@@ -1,7 +1,115 @@
 {
+  "minecraft:recipes/building_blocks/stone_bricks": {
+    "criteria": {
+      "has_stone": "2025-01-30 16:32:02 +0000"
+    },
+    "done": true
+  },
+  "regions_unexplored:recipes/building_blocks/prismoss": {
+    "criteria": {
+      "has_stone": "2025-01-30 16:32:02 +0000"
+    },
+    "done": true
+  },
+  "regions_unexplored:recipes/transportation/maple_boat": {
+    "criteria": {
+      "in_water": "2025-01-30 16:28:07 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/golden_axe": {
+    "criteria": {
+      "has_gold_ingot": "2025-01-30 16:30:11 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/golden_pickaxe": {
+    "criteria": {
+      "has_gold_ingot": "2025-01-30 16:30:11 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_cod_from_smoking": {
+    "criteria": {
+      "has_cod": "2025-01-30 16:29:59 +0000"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/transportation/willow_boat": {
+    "criteria": {
+      "in_water": "2025-01-30 16:28:07 +0000"
+    },
+    "done": true
+  },
   "regions_unexplored:recipes/building_blocks/lime_snowbelle": {
     "criteria": {
       "has_snowbelle": "2025-01-30 16:25:05 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gold_nugget": {
+    "criteria": {
+      "has_gold_ingot": "2025-01-30 16:30:11 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/golden_shovel": {
+    "criteria": {
+      "has_gold_ingot": "2025-01-30 16:30:11 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/golden_apple": {
+    "criteria": {
+      "has_gold_ingot": "2025-01-30 16:30:11 +0000"
+    },
+    "done": true
+  },
+  "regions_unexplored:recipes/building_blocks/stone_grass_block": {
+    "criteria": {
+      "has_stone": "2025-01-30 16:32:02 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/snow": {
+    "criteria": {
+      "has_snowball": "2025-01-30 16:28:58 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone_brick_stairs": {
+    "criteria": {
+      "has_stone_bricks": "2025-01-30 16:32:02 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/golden_boots": {
+    "criteria": {
+      "has_gold_ingot": "2025-01-30 16:30:11 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone_bricks_from_stone_stonecutting": {
+    "criteria": {
+      "has_stone": "2025-01-30 16:32:02 +0000"
+    },
+    "done": true
+  },
+  "regions_unexplored:recipes/transportation/magnolia_boat": {
+    "criteria": {
+      "in_water": "2025-01-30 16:28:07 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone_slab": {
+    "criteria": {
+      "has_stone": "2025-01-30 16:32:02 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:main/get_fd_seed": {
+    "criteria": {
+      "onion": "2025-01-30 16:33:18 +0000"
     },
     "done": true
   },
@@ -11,9 +119,51 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/chest": {
+    "criteria": {
+      "has_lots_of_items": "2025-01-30 16:30:13 +0000"
+    },
+    "done": true
+  },
   "regions_unexplored:recipes/building_blocks/brown_snowbelle": {
     "criteria": {
       "has_snowbelle": "2025-01-30 16:25:05 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone_stairs_from_stone_stonecutting": {
+    "criteria": {
+      "has_stone": "2025-01-30 16:32:02 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/sleep_in_bed": {
+    "criteria": {
+      "slept_in_bed": "2025-01-30 16:33:24 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/cherry_boat": {
+    "criteria": {
+      "in_water": "2025-01-30 16:28:07 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/golden_chestplate": {
+    "criteria": {
+      "has_gold_ingot": "2025-01-30 16:30:11 +0000"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/transportation/umbran_boat": {
+    "criteria": {
+      "in_water": "2025-01-30 16:28:07 +0000"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/misc/gold": {
+    "criteria": {
+      "has_gold_ingot": "2025-01-30 16:30:11 +0000"
     },
     "done": true
   },
@@ -23,9 +173,75 @@
     },
     "done": true
   },
+  "refurbished_furniture:recipes/baking/baked_potato": {
+    "criteria": {
+      "has_ingredient": "2025-01-30 16:28:57 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/stone_button": {
+    "criteria": {
+      "has_stone": "2025-01-30 16:32:02 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/bamboo_raft": {
+    "criteria": {
+      "in_water": "2025-01-30 16:28:07 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/stone_pressure_plate": {
+    "criteria": {
+      "has_stone": "2025-01-30 16:32:02 +0000"
+    },
+    "done": true
+  },
   "regions_unexplored:recipes/building_blocks/orange_snowbelle": {
     "criteria": {
       "has_snowbelle": "2025-01-30 16:25:05 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/baked_cod_stew": {
+    "criteria": {
+      "has_any_ingredient": "2025-01-30 16:28:57 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/combat/golden_knife": {
+    "criteria": {
+      "has_gold_ingot": "2025-01-30 16:30:11 +0000"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/transportation/dead_boat": {
+    "criteria": {
+      "in_water": "2025-01-30 16:28:07 +0000"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/transportation/magic_boat": {
+    "criteria": {
+      "in_water": "2025-01-30 16:28:07 +0000"
+    },
+    "done": true
+  },
+  "regions_unexplored:recipes/transportation/kapok_boat": {
+    "criteria": {
+      "in_water": "2025-01-30 16:28:07 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/light_weighted_pressure_plate": {
+    "criteria": {
+      "has_gold_ingot": "2025-01-30 16:30:11 +0000"
+    },
+    "done": true
+  },
+  "regions_unexplored:recipes/transportation/cypress_boat": {
+    "criteria": {
+      "in_water": "2025-01-30 16:28:07 +0000"
     },
     "done": true
   },
@@ -35,9 +251,58 @@
     },
     "done": true
   },
+  "lootr:social": {
+    "criteria": {
+      "opened_barrel": "2025-01-30 16:29:55 +0000",
+      "opened_chest": "2025-01-30 16:28:47 +0000"
+    },
+    "done": false
+  },
+  "regions_unexplored:recipes/transportation/larch_boat": {
+    "criteria": {
+      "in_water": "2025-01-30 16:28:07 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/dumplings": {
+    "criteria": {
+      "has_any_ingredient": "2025-01-30 16:33:18 +0000"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/stone_stepping_stones": {
+    "criteria": {
+      "has_stone": "2025-01-30 16:32:02 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone_brick_slab": {
+    "criteria": {
+      "has_stone_bricks": "2025-01-30 16:32:02 +0000"
+    },
+    "done": true
+  },
   "refurbished_furniture:recipes/misc/slicing/white_dye_from_oxeye_daisy": {
     "criteria": {
       "has_oxeye_daisy": "2025-01-30 16:24:59 +0000"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/heating/baked_potato": {
+    "criteria": {
+      "has_ingredient": "2025-01-30 16:28:57 +0000"
+    },
+    "done": true
+  },
+  "lootr:1barrel": {
+    "criteria": {
+      "opened_barrel": "2025-01-30 16:29:55 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_stone_bricks_from_stone_bricks_stonecutting": {
+    "criteria": {
+      "has_stone_bricks": "2025-01-30 16:32:02 +0000"
     },
     "done": true
   },
@@ -65,9 +330,87 @@
     },
     "done": true
   },
+  "minecraft:recipes/combat/golden_sword": {
+    "criteria": {
+      "has_gold_ingot": "2025-01-30 16:30:11 +0000"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/transportation/pine_boat": {
+    "criteria": {
+      "in_water": "2025-01-30 16:28:07 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/gold_block": {
+    "criteria": {
+      "has_gold_ingot": "2025-01-30 16:30:11 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/acacia_boat": {
+    "criteria": {
+      "in_water": "2025-01-30 16:28:07 +0000"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/slicing/bread_slice_from_bread": {
+    "criteria": {
+      "has_bread": "2025-01-30 16:28:48 +0000"
+    },
+    "done": true
+  },
   "regions_unexplored:parent": {
     "criteria": {
       "load_in_world": "2025-01-30 16:23:30 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/jungle_boat": {
+    "criteria": {
+      "in_water": "2025-01-30 16:28:07 +0000"
+    },
+    "done": true
+  },
+  "regions_unexplored:recipes/transportation/blackwood_boat": {
+    "criteria": {
+      "in_water": "2025-01-30 16:28:07 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone_stairs": {
+    "criteria": {
+      "has_stone": "2025-01-30 16:32:02 +0000"
+    },
+    "done": true
+  },
+  "lootr:1chest": {
+    "criteria": {
+      "opened_chest": "2025-01-30 16:28:47 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/fish_stew": {
+    "criteria": {
+      "has_any_ingredient": "2025-01-30 16:29:59 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/stone_brick_wall": {
+    "criteria": {
+      "has_stone_bricks": "2025-01-30 16:32:02 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/baked_potato_from_campfire_cooking": {
+    "criteria": {
+      "has_potato": "2025-01-30 16:28:57 +0000"
+    },
+    "done": true
+  },
+  "regions_unexplored:recipes/transportation/pine_boat": {
+    "criteria": {
+      "in_water": "2025-01-30 16:28:07 +0000"
     },
     "done": true
   },
@@ -77,9 +420,33 @@
     },
     "done": true
   },
+  "regions_unexplored:recipes/transportation/eucalyptus_boat": {
+    "criteria": {
+      "in_water": "2025-01-30 16:28:07 +0000"
+    },
+    "done": true
+  },
   "regions_unexplored:recipes/building_blocks/pink_snowbelle": {
     "criteria": {
       "has_snowbelle": "2025-01-30 16:25:05 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cracked_stone_bricks": {
+    "criteria": {
+      "has_stone_bricks": "2025-01-30 16:32:02 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone_brick_stairs_from_stone_bricks_stonecutting": {
+    "criteria": {
+      "has_stone_bricks": "2025-01-30 16:32:02 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/baked_potato": {
+    "criteria": {
+      "has_potato": "2025-01-30 16:28:57 +0000"
     },
     "done": true
   },
@@ -89,9 +456,46 @@
     },
     "done": true
   },
+  "minecraft:recipes/combat/golden_helmet": {
+    "criteria": {
+      "has_gold_ingot": "2025-01-30 16:30:11 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_stone_bricks": {
+    "criteria": {
+      "has_tag": "2025-01-30 16:32:02 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/emerald_block": {
+    "criteria": {
+      "has_emerald": "2025-01-30 16:29:04 +0000"
+    },
+    "done": true
+  },
+  "regions_unexplored:recipes/transportation/palm_boat": {
+    "criteria": {
+      "in_water": "2025-01-30 16:28:07 +0000"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/misc/snow": {
+    "criteria": {
+      "has_snowball": "2025-01-30 16:28:58 +0000"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/transportation/fir_boat": {
+    "criteria": {
+      "in_water": "2025-01-30 16:28:07 +0000"
+    },
+    "done": true
+  },
   "biomesoplenty:biomesoplenty/all_biomes": {
     "criteria": {
       "muskeg": "2025-01-30 16:27:18 +0000",
+      "cold_desert": "2025-01-30 16:28:07 +0000",
       "snowy_coniferous_forest": "2025-01-30 16:25:31 +0000",
       "snowy_maple_woods": "2025-01-30 16:27:10 +0000"
     },
@@ -103,9 +507,57 @@
     },
     "done": false
   },
+  "regions_unexplored:recipes/transportation/socotra_boat": {
+    "criteria": {
+      "in_water": "2025-01-30 16:28:07 +0000"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/misc/emerald": {
+    "criteria": {
+      "has_emerald": "2025-01-30 16:29:04 +0000"
+    },
+    "done": true
+  },
   "lootr:root": {
     "criteria": {
       "always_true": "2025-01-30 16:23:30 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/stonecutter": {
+    "criteria": {
+      "has_stone": "2025-01-30 16:32:02 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/food/barbecue_stick": {
+    "criteria": {
+      "has_onion": "2025-01-30 16:33:18 +0000"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/transportation/maple_boat": {
+    "criteria": {
+      "in_water": "2025-01-30 16:28:07 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/smooth_stone": {
+    "criteria": {
+      "has_stone": "2025-01-30 16:32:02 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/spruce_boat": {
+    "criteria": {
+      "in_water": "2025-01-30 16:28:07 +0000"
+    },
+    "done": true
+  },
+  "regions_unexplored:recipes/transportation/oak_boat": {
+    "criteria": {
+      "in_water": "2025-01-30 16:28:07 +0000"
     },
     "done": true
   },
@@ -115,9 +567,87 @@
     },
     "done": true
   },
+  "minecraft:husbandry/root": {
+    "criteria": {
+      "consumed_item": "2025-01-30 16:29:26 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/birch_boat": {
+    "criteria": {
+      "in_water": "2025-01-30 16:28:07 +0000"
+    },
+    "done": true
+  },
+  "regions_unexplored:recipes/transportation/dead_boat": {
+    "criteria": {
+      "in_water": "2025-01-30 16:28:07 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/oak_boat": {
+    "criteria": {
+      "in_water": "2025-01-30 16:28:07 +0000"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/doorbell": {
+    "criteria": {
+      "has_gold_ingot": "2025-01-30 16:30:11 +0000"
+    },
+    "done": true
+  },
   "regions_unexplored:recipes/building_blocks/light_blue_snowbelle": {
     "criteria": {
       "has_snowbelle": "2025-01-30 16:25:05 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/paper": {
+    "criteria": {
+      "has_reeds": "2025-01-30 16:29:38 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/stone_brick_wall_from_stone_bricks_stonecutting": {
+    "criteria": {
+      "has_stone_bricks": "2025-01-30 16:32:02 +0000"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/transportation/redwood_boat": {
+    "criteria": {
+      "in_water": "2025-01-30 16:28:07 +0000"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/misc/ocelot": {
+    "criteria": {
+      "has_cod": "2025-01-30 16:29:59 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/fried_rice": {
+    "criteria": {
+      "has_any_ingredient": "2025-01-30 16:33:18 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/stone_brick_walls_from_stone_stonecutting": {
+    "criteria": {
+      "has_stone": "2025-01-30 16:32:02 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/mangrove_boat": {
+    "criteria": {
+      "in_water": "2025-01-30 16:28:07 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone_brick_slab_from_stone_stonecutting": {
+    "criteria": {
+      "has_stone": "2025-01-30 16:32:02 +0000"
     },
     "done": true
   },
@@ -127,9 +657,69 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/stone_brick_stairs_from_stone_stonecutting": {
+    "criteria": {
+      "has_stone": "2025-01-30 16:32:02 +0000"
+    },
+    "done": true
+  },
   "regions_unexplored:recipes/misc/white_dye_from_white_snowbelle": {
     "criteria": {
       "has_white_snowbelle": "2025-01-30 16:25:05 +0000"
+    },
+    "done": true
+  },
+  "regions_unexplored:recipes/transportation/mauve_boat": {
+    "criteria": {
+      "in_water": "2025-01-30 16:28:07 +0000"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/transportation/hellbark_boat": {
+    "criteria": {
+      "in_water": "2025-01-30 16:28:07 +0000"
+    },
+    "done": true
+  },
+  "regions_unexplored:recipes/transportation/redwood_boat": {
+    "criteria": {
+      "in_water": "2025-01-30 16:28:07 +0000"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/transportation/jacaranda_boat": {
+    "criteria": {
+      "in_water": "2025-01-30 16:28:07 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/beef_stew": {
+    "criteria": {
+      "has_any_ingredient": "2025-01-30 16:28:57 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone_brick_slab_from_stone_bricks_stonecutting": {
+    "criteria": {
+      "has_stone_bricks": "2025-01-30 16:32:02 +0000"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/transportation/mahogany_boat": {
+    "criteria": {
+      "in_water": "2025-01-30 16:28:07 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone_slab_from_stone_stonecutting": {
+    "criteria": {
+      "has_stone": "2025-01-30 16:32:02 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/sugar_from_sugar_cane": {
+    "criteria": {
+      "has_sugar_cane": "2025-01-30 16:29:38 +0000"
     },
     "done": true
   },
@@ -139,9 +729,51 @@
     },
     "done": false
   },
+  "lootr:10loot": {
+    "criteria": {
+      "loot_stat": "2025-01-30 16:31:48 +0000"
+    },
+    "done": true
+  },
   "farmersdelight:main/root": {
     "criteria": {
       "seeds": "2025-01-30 16:23:30 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/baked_potato_from_smoking": {
+    "criteria": {
+      "has_potato": "2025-01-30 16:28:57 +0000"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/transportation/palm_boat": {
+    "criteria": {
+      "in_water": "2025-01-30 16:28:07 +0000"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/transportation/empyreal_boat": {
+    "criteria": {
+      "in_water": "2025-01-30 16:28:07 +0000"
+    },
+    "done": true
+  },
+  "regions_unexplored:recipes/transportation/baobab_boat": {
+    "criteria": {
+      "in_water": "2025-01-30 16:28:07 +0000"
+    },
+    "done": true
+  },
+  "regions_unexplored:recipes/building_blocks/viridescent_nylium": {
+    "criteria": {
+      "has_stone": "2025-01-30 16:32:02 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_stone_bricks_stone_from_stonecutting": {
+    "criteria": {
+      "has_stone": "2025-01-30 16:32:02 +0000"
     },
     "done": true
   },
@@ -151,14 +783,28 @@
     },
     "done": false
   },
+  "farmersdelight:recipes/cooking/ratatouille": {
+    "criteria": {
+      "has_any_ingredient": "2025-01-30 16:33:18 +0000"
+    },
+    "done": true
+  },
   "regions_unexplored:recipes/building_blocks/gray_snowbelle": {
     "criteria": {
       "has_snowbelle": "2025-01-30 16:25:05 +0000"
     },
     "done": true
   },
+  "minecraft:recipes/food/cooked_cod_from_campfire_cooking": {
+    "criteria": {
+      "has_cod": "2025-01-30 16:29:59 +0000"
+    },
+    "done": true
+  },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
+      "minecraft:frozen_river": "2025-01-30 16:28:03 +0000",
+      "minecraft:frozen_ocean": "2025-01-30 16:28:09 +0000",
       "minecraft:snowy_beach": "2025-01-30 16:23:30 +0000"
     },
     "done": false
@@ -169,15 +815,87 @@
     },
     "done": true
   },
+  "travelersbackpack:recipes/misc/gold_tier_upgrade": {
+    "criteria": {
+      "has_gold_ingot": "2025-01-30 16:30:11 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/misc/light_gray_dye_from_oxeye_daisy": {
     "criteria": {
       "has_oxeye_daisy": "2025-01-30 16:24:59 +0000"
     },
     "done": true
   },
+  "minecraft:recipes/tools/golden_hoe": {
+    "criteria": {
+      "has_gold_ingot": "2025-01-30 16:30:11 +0000"
+    },
+    "done": true
+  },
+  "regions_unexplored:recipes/building_blocks/mossy_stone": {
+    "criteria": {
+      "has_stone": "2025-01-30 16:32:02 +0000"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/balanced_diet": {
+    "criteria": {
+      "bread": "2025-01-30 16:29:26 +0000"
+    },
+    "done": false
+  },
+  "minecraft:recipes/food/cooked_cod": {
+    "criteria": {
+      "has_cod": "2025-01-30 16:29:59 +0000"
+    },
+    "done": true
+  },
+  "regions_unexplored:recipes/transportation/willow_boat": {
+    "criteria": {
+      "in_water": "2025-01-30 16:28:07 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/building_blocks/onion_crate": {
+    "criteria": {
+      "has_onion": "2025-01-30 16:33:18 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/vegetable_soup": {
+    "criteria": {
+      "has_any_ingredient": "2025-01-30 16:33:18 +0000"
+    },
+    "done": true
+  },
   "regions_unexplored:recipes/building_blocks/white_snowbelle": {
     "criteria": {
       "has_snowbelle": "2025-01-30 16:25:05 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/snow_block": {
+    "criteria": {
+      "has_snowball": "2025-01-30 16:28:58 +0000"
+    },
+    "done": true
+  },
+  "regions_unexplored:recipes/transportation/joshua_boat": {
+    "criteria": {
+      "in_water": "2025-01-30 16:28:07 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/dark_oak_boat": {
+    "criteria": {
+      "in_water": "2025-01-30 16:28:07 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/golden_leggings": {
+    "criteria": {
+      "has_gold_ingot": "2025-01-30 16:30:11 +0000"
     },
     "done": true
   },
