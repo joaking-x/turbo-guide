@@ -1,4 +1,11 @@
 
+# Recipe related properties
+[recipes]
+	# If enabled, the Frying Pan and Grill will inherit all the cooking recipes from the
+	# vanilla Campfire.
+	# Valid values: true, false
+	inheritCampfireRecipes = true
+
 # Toilet related properties
 [toilet]
 	# The storage capacity of the fluid tank contained in this block. If you're using Forge,
