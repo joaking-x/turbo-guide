@@ -672,3 +672,46 @@ java.util.NoSuchElementException: No value present
 [28Feb2025 03:04:49.726] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Joaking> :blobcatnight:
 [28Feb2025 03:15:51.169] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Joaking> :blobyes::blobyes:
 [28Feb2025 03:20:24.527] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Joaking: Saved the game]
+[28Feb2025 03:37:21.661] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Joaking> :catjam:
+[28Feb2025 03:37:31.960] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Joaking has made the advancement [Take Aim]
+[28Feb2025 03:40:04.950] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Joaking: Saved the game]
+[28Feb2025 03:41:51.260] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Joaking lost connection: Disconnected
+[28Feb2025 03:41:51.261] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Joaking left the game
+[28Feb2025 03:41:51.319] [Server thread/WARN] [net.minecraft.network.Connection/]: handleDisconnection() called twice
+[28Feb2025 03:42:30.456] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Unknown or incomplete command, see below for error
+[28Feb2025 03:42:30.478] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: a<--[HERE]
+[28Feb2025 03:43:07.162] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Joaking[/127.17.85.78:49303] logged in with entity id 32386 at (-1003.3000000119209, 62.0, 1069.300000011921)
+[28Feb2025 03:43:07.191] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Joaking joined the game
+[28Feb2025 03:43:07.233] [Server thread/INFO] [Jade/]: Syncing config to Joaking (bb25bdb7-3aaa-3db7-b895-6ae3167c8512)
+[28Feb2025 03:43:57.822] [Server thread/ERROR] [net.minecraft.network.protocol.PacketUtils/]: Failed to handle packet net.minecraft.network.protocol.game.ServerboundUseItemOnPacket@39b588ce, suppressing error
+java.util.NoSuchElementException: No value present
+	at java.util.Optional.get(Optional.java:143) ~[?:?]
+	at com.nyfaria.perfectplushieapi.loot.VillageLootModifier.doApply(VillageLootModifier.java:43) ~[perfectplushieapi-forge-1.20.1-0.1.1.jar%23276!/:0.1.1]
+	at net.minecraftforge.common.loot.LootModifier.apply(LootModifier.java:58) ~[forge-1.20.1-47.3.7-universal.jar%23246!/:?]
+	at net.minecraftforge.common.ForgeHooks.modifyLoot(ForgeHooks.java:1186) ~[forge-1.20.1-47.3.7-universal.jar%23246!/:?]
+	at net.minecraft.world.level.storage.loot.LootTable.m_230922_(LootTable.java:118) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
+	at net.minecraft.world.level.storage.loot.LootTable.m_287188_(LootTable.java:139) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
+	at noobanidus.mods.lootr.block.entities.LootrChestBlockEntity.unpackLootTable(LootrChestBlockEntity.java:279) ~[lootr-forge-1.20-0.7.35.90%20(1).jar%23207!/:0.7.35.90]
+	at noobanidus.mods.lootr.data.ChestData.createInventory(ChestData.java:363) ~[lootr-forge-1.20-0.7.35.90%20(1).jar%23207!/:0.7.35.90]
+	at noobanidus.mods.lootr.data.DataStorage.getInventory(DataStorage.java:338) ~[lootr-forge-1.20-0.7.35.90%20(1).jar%23207!/:0.7.35.90]
+	at noobanidus.mods.lootr.util.ChestUtil.handleLootChest(ChestUtil.java:142) ~[lootr-forge-1.20-0.7.35.90%20(1).jar%23207!/:0.7.35.90]
+	at noobanidus.mods.lootr.block.LootrChestBlock.m_6227_(LootrChestBlock.java:50) ~[lootr-forge-1.20-0.7.35.90%20(1).jar%23207!/:0.7.35.90]
+	at net.minecraft.world.level.block.state.BlockBehaviour$BlockStateBase.m_60664_(BlockBehaviour.java:778) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
+	at net.minecraft.server.level.ServerPlayerGameMode.m_7179_(ServerPlayerGameMode.java:343) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.m_6371_(ServerGamePacketListenerImpl.java:1055) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
+	at net.minecraft.network.protocol.game.ServerboundUseItemOnPacket.m_5797_(ServerboundUseItemOnPacket.java:34) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
+	at net.minecraft.network.protocol.game.ServerboundUseItemOnPacket.m_5797_(ServerboundUseItemOnPacket.java:8) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
+	at net.minecraft.network.protocol.PacketUtils.m_263899_(PacketUtils.java:22) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
+	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_6367_(BlockableEventLoop.java:156) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.m_6367_(ReentrantBlockableEventLoop.java:23) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
+	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:770) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
+	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:161) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_7245_(BlockableEventLoop.java:130) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
+	at net.minecraft.server.MinecraftServer.m_129961_(MinecraftServer.java:753) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
+	at net.minecraft.server.MinecraftServer.m_7245_(MinecraftServer.java:747) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
+	at net.minecraft.util.thread.BlockableEventLoop.m_18699_(BlockableEventLoop.java:115) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
+	at net.minecraft.server.MinecraftServer.m_130012_(MinecraftServer.java:732) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
+	at net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:665) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
+	at net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:251) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
+	at java.lang.Thread.run(Thread.java:840) ~[?:?]
