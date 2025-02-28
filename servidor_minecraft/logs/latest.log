@@ -715,3 +715,11 @@ java.util.NoSuchElementException: No value present
 	at net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:665) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
 	at net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:251) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
 	at java.lang.Thread.run(Thread.java:840) ~[?:?]
+[28Feb2025 03:54:58.296] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Joaking was slain by Iron Golem
+[28Feb2025 04:00:53.771] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Joaking> :scyes:
+[28Feb2025 04:01:50.558] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Nitwit'/26935, l='ServerLevel[world]', x=-999.82, y=117.00, z=1207.16] died, message: 'Nitwit was shot by Pillager'
+[28Feb2025 04:02:37.444] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: sofita has made the advancement [Voluntary Exile]
+[28Feb2025 04:02:59.415] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Joaking: Removed every effect from sofita]
+[28Feb2025 04:04:18.961] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-955, y=102, z=1246} BlockPos{x=-956, y=102, z=1246}
+[28Feb2025 04:04:40.405] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: sofita was slain by Forest Mojo
+[28Feb2025 04:12:21.197] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Joaking> :mlembig:
