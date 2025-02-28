@@ -723,3 +723,6 @@ java.util.NoSuchElementException: No value present
 [28Feb2025 04:04:18.961] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-955, y=102, z=1246} BlockPos{x=-956, y=102, z=1246}
 [28Feb2025 04:04:40.405] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: sofita was slain by Forest Mojo
 [28Feb2025 04:12:21.197] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Joaking> :mlembig:
+[28Feb2025 04:47:11.507] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Joaking> :catjam:
+[28Feb2025 04:50:03.113] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: sofita has made the advancement [Close Quarters]
+[28Feb2025 04:50:21.767] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: sofita has made the advancement [Barrel Booty]

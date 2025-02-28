@@ -1213,6 +1213,12 @@
     },
     "done": true
   },
+  "travelersbackpack:recipes/decorations/pink_sleeping_bag": {
+    "criteria": {
+      "has_pink_wool": "2025-02-28 04:47:47 +0000"
+    },
+    "done": true
+  },
   "refurbished_furniture:recipes/misc/constructing/warped_bath": {
     "criteria": {
       "has_iron_ingot": "2025-02-28 02:20:53 +0000"
@@ -1227,6 +1233,7 @@
   },
   "lootr:social": {
     "criteria": {
+      "opened_barrel": "2025-02-28 04:50:21 +0000",
       "opened_chest": "2025-02-28 01:55:58 +0000"
     },
     "done": false
@@ -1453,6 +1460,12 @@
     },
     "done": true
   },
+  "doggytalents:recipes/decorations/conan_suit": {
+    "criteria": {
+      "has_wool": "2025-02-28 04:46:10 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/tools/wooden_hoe": {
     "criteria": {
       "has_stick": "2025-02-28 02:05:11 +0000"
@@ -1462,6 +1475,12 @@
   "refurbished_furniture:recipes/misc/constructing/black_toilet": {
     "criteria": {
       "has_black_dye": "2025-02-28 04:04:52 +0000"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/misc/sheep": {
+    "criteria": {
+      "has_white_wool": "2025-02-28 04:46:10 +0000"
     },
     "done": true
   },
@@ -1525,9 +1544,21 @@
     },
     "done": true
   },
+  "lootr:25loot": {
+    "criteria": {
+      "loot_stat": "2025-02-28 04:50:03 +0000"
+    },
+    "done": true
+  },
   "occultism:recipes/crushing/crushing/iron_dust_from_raw": {
     "criteria": {
       "has_raw_iron": "2025-02-28 02:43:40 +0000"
+    },
+    "done": true
+  },
+  "lootr:1barrel": {
+    "criteria": {
+      "opened_barrel": "2025-02-28 04:50:21 +0000"
     },
     "done": true
   },
@@ -1540,6 +1571,12 @@
   "refurbished_furniture:recipes/misc/constructing/white_trampoline": {
     "criteria": {
       "has_iron_ingot": "2025-02-28 02:20:53 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/pink_bed": {
+    "criteria": {
+      "has_pink_wool": "2025-02-28 04:47:47 +0000"
     },
     "done": true
   },
@@ -1891,6 +1928,18 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/white_bed": {
+    "criteria": {
+      "has_white_wool": "2025-02-28 04:46:10 +0000"
+    },
+    "done": true
+  },
+  "doggytalents:recipes/decorations/dog_plushie_toy_item": {
+    "criteria": {
+      "has_white_wool": "2025-02-28 04:46:10 +0000"
+    },
+    "done": true
+  },
   "refurbished_furniture:recipes/misc/constructing/cyan_stool": {
     "criteria": {
       "has_planks": "2025-02-28 02:04:58 +0000"
@@ -1918,6 +1967,12 @@
   "refurbished_furniture:recipes/misc/constructing/jungle_toilet": {
     "criteria": {
       "has_iron_ingot": "2025-02-28 02:20:53 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/pink_banner": {
+    "criteria": {
+      "has_pink_wool": "2025-02-28 04:47:47 +0000"
     },
     "done": true
   },
@@ -3003,6 +3058,12 @@
     },
     "done": true
   },
+  "travelersbackpack:recipes/decorations/white_sleeping_bag": {
+    "criteria": {
+      "has_white_wool": "2025-02-28 04:46:10 +0000"
+    },
+    "done": true
+  },
   "refurbished_furniture:recipes/decorations/black_toilet": {
     "criteria": {
       "has_dye": "2025-02-28 04:04:52 +0000"
@@ -3102,6 +3163,12 @@
   "minecraft:recipes/building_blocks/cherry_wood": {
     "criteria": {
       "has_log": "2025-02-28 02:05:59 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/white_carpet": {
+    "criteria": {
+      "has_white_wool": "2025-02-28 04:46:10 +0000"
     },
     "done": true
   },
@@ -3342,6 +3409,12 @@
   "refurbished_furniture:recipes/misc/wrench": {
     "criteria": {
       "has_iron_ingot": "2025-02-28 02:20:53 +0000"
+    },
+    "done": true
+  },
+  "doggytalents:recipes/decorations/beastars_uniform_male": {
+    "criteria": {
+      "has_wool": "2025-02-28 04:46:10 +0000"
     },
     "done": true
   },
@@ -3588,6 +3661,12 @@
   "refurbished_furniture:recipes/misc/constructing/oak_lattice_fence": {
     "criteria": {
       "has_oak_planks": "2025-02-28 02:04:58 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/white_banner": {
+    "criteria": {
+      "has_white_wool": "2025-02-28 04:46:10 +0000"
     },
     "done": true
   },
@@ -4045,6 +4124,12 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/pink_carpet": {
+    "criteria": {
+      "has_pink_wool": "2025-02-28 04:47:47 +0000"
+    },
+    "done": true
+  },
   "farmersdelight:recipes/decorations/cutting_board": {
     "criteria": {
       "has_stick": "2025-02-28 02:05:11 +0000"
@@ -4258,6 +4343,12 @@
   "regions_unexplored:recipes/transportation/joshua_boat": {
     "criteria": {
       "in_water": "2025-02-28 02:27:22 +0000"
+    },
+    "done": true
+  },
+  "doggytalents:recipes/decorations/beastars_uniform_female": {
+    "criteria": {
+      "has_wool": "2025-02-28 04:46:10 +0000"
     },
     "done": true
   },

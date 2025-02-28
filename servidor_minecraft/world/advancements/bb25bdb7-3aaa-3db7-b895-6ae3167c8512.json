@@ -3968,6 +3968,12 @@
     },
     "done": true
   },
+  "biomesoplenty:recipes/decorations/fir_fence": {
+    "criteria": {
+      "has_planks": "2025-02-28 04:54:10 +0000"
+    },
+    "done": true
+  },
   "farmersdelight:recipes/cooking/squid_ink_pasta": {
     "criteria": {
       "has_any_ingredient": "2025-02-28 04:02:26 +0000"
@@ -3980,6 +3986,18 @@
     },
     "done": true
   },
+  "biomesoplenty:recipes/redstone/fir_button": {
+    "criteria": {
+      "has_planks": "2025-02-28 04:54:10 +0000"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/redstone/fir_door": {
+    "criteria": {
+      "has_planks": "2025-02-28 04:54:10 +0000"
+    },
+    "done": true
+  },
   "refurbished_furniture:recipes/decorations/mangrove_dark_ceiling_fan": {
     "criteria": {
       "has_dye": "2025-02-28 04:04:20 +0000"
@@ -3989,6 +4007,12 @@
   "soulsweapons:recipes/combat/kirkhammer": {
     "criteria": {
       "has_item": "2025-02-28 04:01:36 +0000"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/building_blocks/fir_stairs": {
+    "criteria": {
+      "has_planks": "2025-02-28 04:54:10 +0000"
     },
     "done": true
   },
@@ -4172,6 +4196,12 @@
     },
     "done": true
   },
+  "biomesoplenty:recipes/building_blocks/fir_slab": {
+    "criteria": {
+      "has_planks": "2025-02-28 04:54:10 +0000"
+    },
+    "done": true
+  },
   "refurbished_furniture:recipes/decorations/jungle_dark_ceiling_fan": {
     "criteria": {
       "has_dye": "2025-02-28 04:04:20 +0000"
@@ -4181,6 +4211,12 @@
   "refurbished_furniture:recipes/decorations/dark_fridge": {
     "criteria": {
       "has_dye": "2025-02-28 04:04:20 +0000"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/redstone/fir_fence_gate": {
+    "criteria": {
+      "has_planks": "2025-02-28 04:54:10 +0000"
     },
     "done": true
   },
@@ -4247,6 +4283,12 @@
   "minecraft:recipes/decorations/pink_stained_glass_pane_from_glass_pane": {
     "criteria": {
       "has_pink_dye": "2025-02-28 04:21:16 +0000"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/decorations/fir_sign": {
+    "criteria": {
+      "has_planks": "2025-02-28 04:54:10 +0000"
     },
     "done": true
   },
@@ -4325,6 +4367,18 @@
   "travelersbackpack:recipes/building_blocks/dye_pink_sleeping_bag": {
     "criteria": {
       "has_needed_dye": "2025-02-28 04:21:16 +0000"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/redstone/fir_trapdoor": {
+    "criteria": {
+      "has_planks": "2025-02-28 04:54:10 +0000"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/redstone/fir_pressure_plate": {
+    "criteria": {
+      "has_planks": "2025-02-28 04:54:10 +0000"
     },
     "done": true
   },
