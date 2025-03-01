@@ -4136,3 +4136,12 @@ com.google.gson.JsonSyntaxException: Missing expand, expected to find a Boolean
 [01Mar2025 05:22:43.015] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
 [01Mar2025 05:25:21.683] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Joaking: Set own game mode to Creative Mode]
 [01Mar2025 05:25:41.230] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Joaking: Set own game mode to Survival Mode]
+[01Mar2025 05:27:42.984] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[01Mar2025 05:27:42.998] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[01Mar2025 05:32:42.986] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: Gathering id map for writing to world save world
+[01Mar2025 05:32:43.001] [Server thread/DEBUG] [net.minecraftforge.common.ForgeHooks/WP]: ID Map collection complete world
+[01Mar2025 05:37:10.420] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-970, y=119, z=1209} BlockPos{x=-969, y=117, z=1209}
+[01Mar2025 05:37:10.480] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-970, y=119, z=1209} BlockPos{x=-969, y=117, z=1209}
+[01Mar2025 05:37:10.557] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-970, y=119, z=1209} BlockPos{x=-969, y=117, z=1209}
+[01Mar2025 05:37:18.063] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Joaking was slain by Forest Mojo
+[01Mar2025 05:37:19.472] [Server thread/DEBUG] [tacz/SYNC_BASE_TIMESTAMP]: Update server base timestamp: 1740807439472
