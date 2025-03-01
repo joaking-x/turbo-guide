@@ -64,6 +64,7 @@
       "scrubland": "2025-02-25 00:32:03 +0000",
       "coniferous_forest": "2025-02-28 01:51:19 +0000",
       "seasonal_forest": "2025-02-28 01:51:08 +0000",
+      "pasture": "2025-03-01 04:54:41 +0000",
       "prairie": "2025-02-28 01:46:41 +0000"
     },
     "done": false
@@ -1220,6 +1221,7 @@
   },
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
+      "cooked_mutton": "2025-03-01 04:56:26 +0000",
       "apple": "2025-02-28 03:30:12 +0000",
       "bread": "2025-02-28 01:53:14 +0000"
     },
@@ -3842,6 +3844,36 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/smoker": {
+    "criteria": {
+      "has_furnace": "2025-02-28 03:49:44 +0000"
+    },
+    "done": true
+  },
+  "soulsweapons:recipes/combat/kirkhammer": {
+    "criteria": {
+      "has_item": "2025-02-28 04:01:36 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/squid_ink_pasta": {
+    "criteria": {
+      "has_any_ingredient": "2025-02-28 04:02:26 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/black_dye": {
+    "criteria": {
+      "has_ink_sac": "2025-02-28 04:02:26 +0000"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/misc/squid": {
+    "criteria": {
+      "has_ink_sac": "2025-02-28 04:02:26 +0000"
+    },
+    "done": true
+  },
   "refurbished_furniture:recipes/misc/constructing/black_kitchen_sink": {
     "criteria": {
       "has_black_dye": "2025-02-28 04:04:20 +0000"
@@ -3860,21 +3892,9 @@
     },
     "done": true
   },
-  "refurbished_furniture:recipes/misc/constructing/pink_bath": {
-    "criteria": {
-      "has_pink_dye": "2025-02-28 04:21:16 +0000"
-    },
-    "done": true
-  },
   "refurbished_furniture:recipes/misc/constructing/dark_range_hood": {
     "criteria": {
       "has_black_dye": "2025-02-28 04:04:20 +0000"
-    },
-    "done": true
-  },
-  "refurbished_furniture:recipes/decorations/pink_kitchen_storage_cabinet_from_dyeing": {
-    "criteria": {
-      "has_dye": "2025-02-28 04:21:16 +0000"
     },
     "done": true
   },
@@ -3902,21 +3922,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/misc/magenta_dye_from_blue_red_pink": {
-    "criteria": {
-      "has_pink_dye": "2025-02-28 04:21:16 +0000"
-    },
-    "done": true
-  },
   "refurbished_furniture:recipes/decorations/dark_oak_dark_ceiling_fan": {
     "criteria": {
       "has_dye": "2025-02-28 04:04:20 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/pink_candle": {
-    "criteria": {
-      "has_pink_dye": "2025-02-28 04:21:16 +0000"
     },
     "done": true
   },
@@ -3938,18 +3946,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/dye_pink_bed": {
-    "criteria": {
-      "has_needed_dye": "2025-02-28 04:21:16 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/magenta_dye_from_purple_and_pink": {
-    "criteria": {
-      "has_pink_dye": "2025-02-28 04:21:16 +0000"
-    },
-    "done": true
-  },
   "refurbished_furniture:recipes/misc/constructing/dark_toaster": {
     "criteria": {
       "has_black_dye": "2025-02-28 04:04:20 +0000"
@@ -3968,51 +3964,15 @@
     },
     "done": true
   },
-  "biomesoplenty:recipes/decorations/fir_fence": {
-    "criteria": {
-      "has_planks": "2025-02-28 04:54:10 +0000"
-    },
-    "done": true
-  },
-  "farmersdelight:recipes/cooking/squid_ink_pasta": {
-    "criteria": {
-      "has_any_ingredient": "2025-02-28 04:02:26 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/dye_black_carpet": {
     "criteria": {
       "has_needed_dye": "2025-02-28 04:04:20 +0000"
     },
     "done": true
   },
-  "biomesoplenty:recipes/redstone/fir_button": {
-    "criteria": {
-      "has_planks": "2025-02-28 04:54:10 +0000"
-    },
-    "done": true
-  },
-  "biomesoplenty:recipes/redstone/fir_door": {
-    "criteria": {
-      "has_planks": "2025-02-28 04:54:10 +0000"
-    },
-    "done": true
-  },
   "refurbished_furniture:recipes/decorations/mangrove_dark_ceiling_fan": {
     "criteria": {
       "has_dye": "2025-02-28 04:04:20 +0000"
-    },
-    "done": true
-  },
-  "soulsweapons:recipes/combat/kirkhammer": {
-    "criteria": {
-      "has_item": "2025-02-28 04:01:36 +0000"
-    },
-    "done": true
-  },
-  "biomesoplenty:recipes/building_blocks/fir_stairs": {
-    "criteria": {
-      "has_planks": "2025-02-28 04:54:10 +0000"
     },
     "done": true
   },
@@ -4025,12 +3985,6 @@
   "refurbished_furniture:recipes/decorations/black_cooler_from_dyeing": {
     "criteria": {
       "has_dye": "2025-02-28 04:04:20 +0000"
-    },
-    "done": true
-  },
-  "refurbished_furniture:recipes/misc/constructing/pink_kitchen_cabinetry": {
-    "criteria": {
-      "has_pink_dye": "2025-02-28 04:21:16 +0000"
     },
     "done": true
   },
@@ -4052,12 +4006,6 @@
     },
     "done": true
   },
-  "refurbished_furniture:recipes/decorations/pink_stool_from_dyeing": {
-    "criteria": {
-      "has_dye": "2025-02-28 04:21:16 +0000"
-    },
-    "done": true
-  },
   "refurbished_furniture:recipes/misc/constructing/spruce_dark_ceiling_fan": {
     "criteria": {
       "has_black_dye": "2025-02-28 04:04:20 +0000"
@@ -4067,18 +4015,6 @@
   "refurbished_furniture:recipes/misc/constructing/mangrove_dark_ceiling_fan": {
     "criteria": {
       "has_black_dye": "2025-02-28 04:04:20 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/black_dye": {
-    "criteria": {
-      "has_ink_sac": "2025-02-28 04:02:26 +0000"
-    },
-    "done": true
-  },
-  "refurbished_furniture:recipes/decorations/pink_sofa_from_dyeing": {
-    "criteria": {
-      "has_dye": "2025-02-28 04:21:16 +0000"
     },
     "done": true
   },
@@ -4118,12 +4054,6 @@
     },
     "done": true
   },
-  "refurbished_furniture:recipes/decorations/pink_toilet": {
-    "criteria": {
-      "has_dye": "2025-02-28 04:21:16 +0000"
-    },
-    "done": true
-  },
   "refurbished_furniture:recipes/decorations/cherry_dark_ceiling_fan": {
     "criteria": {
       "has_dye": "2025-02-28 04:04:20 +0000"
@@ -4133,18 +4063,6 @@
   "refurbished_furniture:recipes/decorations/black_trampoline_from_dyeing": {
     "criteria": {
       "has_dye": "2025-02-28 04:04:20 +0000"
-    },
-    "done": true
-  },
-  "refurbished_furniture:recipes/decorations/pink_kitchen_sink_from_dyeing": {
-    "criteria": {
-      "has_dye": "2025-02-28 04:21:16 +0000"
-    },
-    "done": true
-  },
-  "refurbished_furniture:recipes/decorations/pink_kitchen_drawer_from_dyeing": {
-    "criteria": {
-      "has_dye": "2025-02-28 04:21:16 +0000"
     },
     "done": true
   },
@@ -4163,12 +4081,6 @@
   "refurbished_furniture:recipes/decorations/spruce_dark_ceiling_fan": {
     "criteria": {
       "has_dye": "2025-02-28 04:04:20 +0000"
-    },
-    "done": true
-  },
-  "refurbished_furniture:recipes/misc/constructing/pink_toilet": {
-    "criteria": {
-      "has_pink_dye": "2025-02-28 04:21:16 +0000"
     },
     "done": true
   },
@@ -4196,12 +4108,6 @@
     },
     "done": true
   },
-  "biomesoplenty:recipes/building_blocks/fir_slab": {
-    "criteria": {
-      "has_planks": "2025-02-28 04:54:10 +0000"
-    },
-    "done": true
-  },
   "refurbished_furniture:recipes/decorations/jungle_dark_ceiling_fan": {
     "criteria": {
       "has_dye": "2025-02-28 04:04:20 +0000"
@@ -4214,30 +4120,6 @@
     },
     "done": true
   },
-  "biomesoplenty:recipes/redstone/fir_fence_gate": {
-    "criteria": {
-      "has_planks": "2025-02-28 04:54:10 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/smoker": {
-    "criteria": {
-      "has_furnace": "2025-02-28 03:49:44 +0000"
-    },
-    "done": true
-  },
-  "refurbished_furniture:recipes/misc/constructing/pink_basin": {
-    "criteria": {
-      "has_pink_dye": "2025-02-28 04:21:16 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/dye_pink_wool": {
-    "criteria": {
-      "has_needed_dye": "2025-02-28 04:21:16 +0000"
-    },
-    "done": true
-  },
   "refurbished_furniture:recipes/decorations/black_kitchen_cabinetry_from_dyeing": {
     "criteria": {
       "has_dye": "2025-02-28 04:04:20 +0000"
@@ -4247,12 +4129,6 @@
   "refurbished_furniture:recipes/misc/constructing/black_basin": {
     "criteria": {
       "has_black_dye": "2025-02-28 04:04:20 +0000"
-    },
-    "done": true
-  },
-  "refurbished_furniture:recipes/misc/constructing/pink_kitchen_sink": {
-    "criteria": {
-      "has_pink_dye": "2025-02-28 04:21:16 +0000"
     },
     "done": true
   },
@@ -4274,39 +4150,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/dye_pink_carpet": {
-    "criteria": {
-      "has_needed_dye": "2025-02-28 04:21:16 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/pink_stained_glass_pane_from_glass_pane": {
-    "criteria": {
-      "has_pink_dye": "2025-02-28 04:21:16 +0000"
-    },
-    "done": true
-  },
-  "biomesoplenty:recipes/decorations/fir_sign": {
-    "criteria": {
-      "has_planks": "2025-02-28 04:54:10 +0000"
-    },
-    "done": true
-  },
-  "refurbished_furniture:recipes/decorations/pink_trampoline_from_dyeing": {
-    "criteria": {
-      "has_dye": "2025-02-28 04:21:16 +0000"
-    },
-    "done": true
-  },
   "refurbished_furniture:recipes/decorations/black_kitchen_storage_cabinet_from_dyeing": {
     "criteria": {
       "has_dye": "2025-02-28 04:04:20 +0000"
-    },
-    "done": true
-  },
-  "refurbished_furniture:recipes/decorations/pink_kitchen_cabinetry_from_dyeing": {
-    "criteria": {
-      "has_dye": "2025-02-28 04:21:16 +0000"
     },
     "done": true
   },
@@ -4328,12 +4174,6 @@
     },
     "done": true
   },
-  "travelersbackpack:recipes/misc/squid": {
-    "criteria": {
-      "has_ink_sac": "2025-02-28 04:02:26 +0000"
-    },
-    "done": true
-  },
   "refurbished_furniture:recipes/decorations/dark_lightswitch": {
     "criteria": {
       "has_dye": "2025-02-28 04:04:20 +0000"
@@ -4343,12 +4183,6 @@
   "refurbished_furniture:recipes/misc/constructing/dark_fridge": {
     "criteria": {
       "has_black_dye": "2025-02-28 04:04:20 +0000"
-    },
-    "done": true
-  },
-  "refurbished_furniture:recipes/decorations/pink_grill_from_dyeing": {
-    "criteria": {
-      "has_dye": "2025-02-28 04:21:16 +0000"
     },
     "done": true
   },
@@ -4364,24 +4198,6 @@
     },
     "done": true
   },
-  "travelersbackpack:recipes/building_blocks/dye_pink_sleeping_bag": {
-    "criteria": {
-      "has_needed_dye": "2025-02-28 04:21:16 +0000"
-    },
-    "done": true
-  },
-  "biomesoplenty:recipes/redstone/fir_trapdoor": {
-    "criteria": {
-      "has_planks": "2025-02-28 04:54:10 +0000"
-    },
-    "done": true
-  },
-  "biomesoplenty:recipes/redstone/fir_pressure_plate": {
-    "criteria": {
-      "has_planks": "2025-02-28 04:54:10 +0000"
-    },
-    "done": true
-  },
   "refurbished_furniture:recipes/misc/constructing/cherry_dark_ceiling_fan": {
     "criteria": {
       "has_black_dye": "2025-02-28 04:04:20 +0000"
@@ -4391,18 +4207,6 @@
   "refurbished_furniture:recipes/decorations/black_stool_from_dyeing": {
     "criteria": {
       "has_dye": "2025-02-28 04:04:20 +0000"
-    },
-    "done": true
-  },
-  "refurbished_furniture:recipes/misc/constructing/pink_kitchen_storage_cabinet": {
-    "criteria": {
-      "has_pink_dye": "2025-02-28 04:21:16 +0000"
-    },
-    "done": true
-  },
-  "refurbished_furniture:recipes/decorations/pink_cooler_from_dyeing": {
-    "criteria": {
-      "has_dye": "2025-02-28 04:21:16 +0000"
     },
     "done": true
   },
@@ -4424,6 +4228,150 @@
     },
     "done": true
   },
+  "refurbished_furniture:recipes/misc/constructing/pink_bath": {
+    "criteria": {
+      "has_pink_dye": "2025-02-28 04:21:16 +0000"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/decorations/pink_kitchen_storage_cabinet_from_dyeing": {
+    "criteria": {
+      "has_dye": "2025-02-28 04:21:16 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/magenta_dye_from_blue_red_pink": {
+    "criteria": {
+      "has_pink_dye": "2025-02-28 04:21:16 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/pink_candle": {
+    "criteria": {
+      "has_pink_dye": "2025-02-28 04:21:16 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_pink_bed": {
+    "criteria": {
+      "has_needed_dye": "2025-02-28 04:21:16 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/magenta_dye_from_purple_and_pink": {
+    "criteria": {
+      "has_pink_dye": "2025-02-28 04:21:16 +0000"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/pink_kitchen_cabinetry": {
+    "criteria": {
+      "has_pink_dye": "2025-02-28 04:21:16 +0000"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/decorations/pink_stool_from_dyeing": {
+    "criteria": {
+      "has_dye": "2025-02-28 04:21:16 +0000"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/decorations/pink_sofa_from_dyeing": {
+    "criteria": {
+      "has_dye": "2025-02-28 04:21:16 +0000"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/decorations/pink_toilet": {
+    "criteria": {
+      "has_dye": "2025-02-28 04:21:16 +0000"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/decorations/pink_kitchen_sink_from_dyeing": {
+    "criteria": {
+      "has_dye": "2025-02-28 04:21:16 +0000"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/decorations/pink_kitchen_drawer_from_dyeing": {
+    "criteria": {
+      "has_dye": "2025-02-28 04:21:16 +0000"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/pink_toilet": {
+    "criteria": {
+      "has_pink_dye": "2025-02-28 04:21:16 +0000"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/pink_basin": {
+    "criteria": {
+      "has_pink_dye": "2025-02-28 04:21:16 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_pink_wool": {
+    "criteria": {
+      "has_needed_dye": "2025-02-28 04:21:16 +0000"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/pink_kitchen_sink": {
+    "criteria": {
+      "has_pink_dye": "2025-02-28 04:21:16 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/dye_pink_carpet": {
+    "criteria": {
+      "has_needed_dye": "2025-02-28 04:21:16 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/pink_stained_glass_pane_from_glass_pane": {
+    "criteria": {
+      "has_pink_dye": "2025-02-28 04:21:16 +0000"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/decorations/pink_trampoline_from_dyeing": {
+    "criteria": {
+      "has_dye": "2025-02-28 04:21:16 +0000"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/decorations/pink_kitchen_cabinetry_from_dyeing": {
+    "criteria": {
+      "has_dye": "2025-02-28 04:21:16 +0000"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/decorations/pink_grill_from_dyeing": {
+    "criteria": {
+      "has_dye": "2025-02-28 04:21:16 +0000"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/building_blocks/dye_pink_sleeping_bag": {
+    "criteria": {
+      "has_needed_dye": "2025-02-28 04:21:16 +0000"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/pink_kitchen_storage_cabinet": {
+    "criteria": {
+      "has_pink_dye": "2025-02-28 04:21:16 +0000"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/decorations/pink_cooler_from_dyeing": {
+    "criteria": {
+      "has_dye": "2025-02-28 04:21:16 +0000"
+    },
+    "done": true
+  },
   "refurbished_furniture:recipes/misc/constructing/pink_kitchen_drawer": {
     "criteria": {
       "has_pink_dye": "2025-02-28 04:21:16 +0000"
@@ -4433,6 +4381,252 @@
   "refurbished_furniture:recipes/decorations/pink_lamp_from_dyeing": {
     "criteria": {
       "has_dye": "2025-02-28 04:21:16 +0000"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/decorations/fir_fence": {
+    "criteria": {
+      "has_planks": "2025-02-28 04:54:10 +0000"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/redstone/fir_button": {
+    "criteria": {
+      "has_planks": "2025-02-28 04:54:10 +0000"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/redstone/fir_door": {
+    "criteria": {
+      "has_planks": "2025-02-28 04:54:10 +0000"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/building_blocks/fir_stairs": {
+    "criteria": {
+      "has_planks": "2025-02-28 04:54:10 +0000"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/building_blocks/fir_slab": {
+    "criteria": {
+      "has_planks": "2025-02-28 04:54:10 +0000"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/redstone/fir_fence_gate": {
+    "criteria": {
+      "has_planks": "2025-02-28 04:54:10 +0000"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/decorations/fir_sign": {
+    "criteria": {
+      "has_planks": "2025-02-28 04:54:10 +0000"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/redstone/fir_trapdoor": {
+    "criteria": {
+      "has_planks": "2025-02-28 04:54:10 +0000"
+    },
+    "done": true
+  },
+  "biomesoplenty:recipes/redstone/fir_pressure_plate": {
+    "criteria": {
+      "has_planks": "2025-02-28 04:54:10 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/composter": {
+    "criteria": {
+      "has_wood_slab": "2025-02-28 23:32:28 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/rabbit_stew": {
+    "criteria": {
+      "has_any_ingredient": "2025-02-28 23:36:59 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/food/steak_and_potatoes": {
+    "criteria": {
+      "has_baked_potato": "2025-02-28 23:36:59 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/food/stuffed_potato": {
+    "criteria": {
+      "has_baked_potato": "2025-02-28 23:36:59 +0000"
+    },
+    "done": true
+  },
+  "refurbished_furniture:recipes/misc/constructing/cherry_hedge": {
+    "criteria": {
+      "has_cherry_leaves": "2025-02-28 23:43:54 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/leather_helmet": {
+    "criteria": {
+      "has_leather": "2025-03-01 04:50:58 +0000"
+    },
+    "done": true
+  },
+  "doggytalents:recipes/decorations/ceremonial_garb": {
+    "criteria": {
+      "has_lead": "2025-03-01 04:51:08 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/black_carpet": {
+    "criteria": {
+      "has_black_wool": "2025-03-01 04:57:37 +0000"
+    },
+    "done": true
+  },
+  "doggytalents:recipes/decorations/plague_doctor_mask": {
+    "criteria": {
+      "has_leather": "2025-03-01 04:50:58 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/leather_chestplate": {
+    "criteria": {
+      "has_leather": "2025-03-01 04:50:58 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/food/fried_egg_from_campfire_cooking": {
+    "criteria": {
+      "fried_egg": "2025-03-01 04:54:07 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/leather_horse_armor": {
+    "criteria": {
+      "has_leather": "2025-03-01 04:50:58 +0000"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/misc/horse": {
+    "criteria": {
+      "has_leather": "2025-03-01 04:50:58 +0000"
+    },
+    "done": true
+  },
+  "doggytalents:recipes/decorations/tantan_cape": {
+    "criteria": {
+      "has_leather": "2025-03-01 04:50:58 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/black_bed": {
+    "criteria": {
+      "has_black_wool": "2025-03-01 04:57:37 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/food/roasted_mutton_chops": {
+    "criteria": {
+      "has_mutton": "2025-03-01 04:55:30 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/item_frame": {
+    "criteria": {
+      "has_leather": "2025-03-01 04:50:58 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/food/shepherds_pie_block": {
+    "criteria": {
+      "has_cooked_mutton": "2025-03-01 04:55:30 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/leather_boots": {
+    "criteria": {
+      "has_leather": "2025-03-01 04:50:58 +0000"
+    },
+    "done": true
+  },
+  "doggytalents:recipes/decorations/cape_coloured": {
+    "criteria": {
+      "has_leather": "2025-03-01 04:50:58 +0000"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/misc/cake": {
+    "criteria": {
+      "has_egg": "2025-03-01 04:54:07 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/food/fried_egg_from_smoking": {
+    "criteria": {
+      "fried_egg": "2025-03-01 04:54:07 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cake": {
+    "criteria": {
+      "has_egg": "2025-03-01 04:54:07 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/leather_leggings": {
+    "criteria": {
+      "has_leather": "2025-03-01 04:50:58 +0000"
+    },
+    "done": true
+  },
+  "doggytalents:recipes/decorations/leather_jacket": {
+    "criteria": {
+      "has_leather": "2025-03-01 04:50:58 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/black_banner": {
+    "criteria": {
+      "has_black_wool": "2025-03-01 04:57:37 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/cooking/fried_rice": {
+    "criteria": {
+      "has_any_ingredient": "2025-03-01 04:54:07 +0000"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/decorations/black_sleeping_bag": {
+    "criteria": {
+      "has_black_wool": "2025-03-01 04:57:37 +0000"
+    },
+    "done": true
+  },
+  "doggytalents:recipes/tools/treat_bag": {
+    "criteria": {
+      "has_leather": "2025-03-01 04:50:58 +0000"
+    },
+    "done": true
+  },
+  "doggytalents:recipes/food/egg_sandwich": {
+    "criteria": {
+      "has_egg": "2025-03-01 04:54:07 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/food/mutton_wrap": {
+    "criteria": {
+      "has_mutton": "2025-03-01 04:55:30 +0000"
+    },
+    "done": true
+  },
+  "farmersdelight:recipes/food/fried_egg": {
+    "criteria": {
+      "fried_egg": "2025-03-01 04:54:07 +0000"
     },
     "done": true
   },

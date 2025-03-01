@@ -1,113 +1,112 @@
-[28Feb2025 01:44:09.162] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.3.7, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, nogui]
-[28Feb2025 01:44:09.167] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.13 by Ubuntu; OS Linux arch amd64 version 6.5.0-1025-azure
-[28Feb2025 01:44:10.379] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
-[28Feb2025 01:44:10.444] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/turbo-guide/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
-[28Feb2025 01:44:10.855] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/turbo-guide/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.3.7/fmlcore-1.20.1-47.3.7.jar is missing mods.toml file
-[28Feb2025 01:44:10.857] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/turbo-guide/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.3.7/javafmllanguage-1.20.1-47.3.7.jar is missing mods.toml file
-[28Feb2025 01:44:10.859] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/turbo-guide/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.3.7/lowcodelanguage-1.20.1-47.3.7.jar is missing mods.toml file
-[28Feb2025 01:44:10.860] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/turbo-guide/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.3.7/mclanguage-1.20.1-47.3.7.jar is missing mods.toml file
-[28Feb2025 01:44:11.202] [main/WARN] [net.minecraftforge.jarjar.selection.JarSelector/]: Attempted to select two dependency jars from JarJar which have the same identification: Mod File:  and Mod File: . Using Mod File: 
-[28Feb2025 01:44:11.203] [main/WARN] [net.minecraftforge.jarjar.selection.JarSelector/]: Attempted to select a dependency jar for JarJar which was passed in as source: resourcefullib. Using Mod File: /workspaces/turbo-guide/servidor_minecraft/mods/resourcefullib-forge-1.20.1-2.1.29.jar
-[28Feb2025 01:44:11.204] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 14 dependencies adding them to mods collection
-[28Feb2025 01:44:13.634] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
-[28Feb2025 01:44:13.830] [main/ERROR] [mixin/]: Mixin config furniture-common.mixins.json does not specify "minVersion" property
-[28Feb2025 01:44:13.889] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments [nogui]
-[28Feb2025 01:44:14.088] [main/WARN] [mixin/]: Reference map 'modonomicon.refmap.json' for modonomicon.mixins.json could not be read. If this is a development environment you can ignore this message
-[28Feb2025 01:44:14.090] [main/WARN] [mixin/]: Reference map 'modonomicon.refmap.json' for modonomicon.forge.mixins.json could not be read. If this is a development environment you can ignore this message
-[28Feb2025 01:44:14.913] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/gui/screens/Screen for invalid dist DEDICATED_SERVER
-[28Feb2025 01:44:14.914] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/gui/screens/Screen (java.lang.RuntimeException: Attempted to load class net/minecraft/client/gui/screens/Screen for invalid dist DEDICATED_SERVER)
-[28Feb2025 01:44:14.914] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.gui.screens.Screen was not found relics.mixins.json:ScreenMixin
-[28Feb2025 01:44:15.932] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
-[28Feb2025 01:44:21.385] [main/WARN] [mixin/]: @Inject(@At("INVOKE_ASSIGN")) Shift.BY=2 on refurbished_furniture.common.mixins.json:LevelChunkMixin::handler$zlp000$refurbishedFurniture$AfterRemoveBlockEntity exceeds the maximum allowed value: 0. Increase the value of maxShiftBy to suppress this warning.
-[28Feb2025 01:44:22.094] [main/WARN] [mixin/]: Mixin alexscaves.mixins.json:SwampHutPieceMixin has multiple constructors, (Lnet/minecraft/world/level/levelgen/structure/pieces/StructurePieceType;IIIIIILnet/minecraft/core/Direction;)V was selected
+[01Mar2025 04:46:46.811] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 47.3.7, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, nogui]
+[01Mar2025 04:46:46.816] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.14 by Ubuntu; OS Linux arch amd64 version 6.5.0-1025-azure
+[01Mar2025 04:46:47.950] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
+[01Mar2025 04:46:48.004] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/turbo-guide/servidor_minecraft/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2365!/ Service=ModLauncher Env=SERVER
+[01Mar2025 04:46:48.390] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/turbo-guide/servidor_minecraft/libraries/net/minecraftforge/fmlcore/1.20.1-47.3.7/fmlcore-1.20.1-47.3.7.jar is missing mods.toml file
+[01Mar2025 04:46:48.391] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/turbo-guide/servidor_minecraft/libraries/net/minecraftforge/javafmllanguage/1.20.1-47.3.7/javafmllanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[01Mar2025 04:46:48.392] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/turbo-guide/servidor_minecraft/libraries/net/minecraftforge/lowcodelanguage/1.20.1-47.3.7/lowcodelanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[01Mar2025 04:46:48.393] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /workspaces/turbo-guide/servidor_minecraft/libraries/net/minecraftforge/mclanguage/1.20.1-47.3.7/mclanguage-1.20.1-47.3.7.jar is missing mods.toml file
+[01Mar2025 04:46:48.772] [main/WARN] [net.minecraftforge.jarjar.selection.JarSelector/]: Attempted to select two dependency jars from JarJar which have the same identification: Mod File:  and Mod File: . Using Mod File: 
+[01Mar2025 04:46:48.773] [main/WARN] [net.minecraftforge.jarjar.selection.JarSelector/]: Attempted to select a dependency jar for JarJar which was passed in as source: resourcefullib. Using Mod File: /workspaces/turbo-guide/servidor_minecraft/mods/resourcefullib-forge-1.20.1-2.1.29.jar
+[01Mar2025 04:46:48.774] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 14 dependencies adding them to mods collection
+[01Mar2025 04:46:51.281] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[01Mar2025 04:46:51.481] [main/ERROR] [mixin/]: Mixin config furniture-common.mixins.json does not specify "minVersion" property
+[01Mar2025 04:46:51.505] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments [nogui]
+[01Mar2025 04:46:51.756] [main/WARN] [mixin/]: Reference map 'modonomicon.refmap.json' for modonomicon.mixins.json could not be read. If this is a development environment you can ignore this message
+[01Mar2025 04:46:51.759] [main/WARN] [mixin/]: Reference map 'modonomicon.refmap.json' for modonomicon.forge.mixins.json could not be read. If this is a development environment you can ignore this message
+[01Mar2025 04:46:52.671] [main/ERROR] [net.minecraftforge.fml.loading.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/gui/screens/Screen for invalid dist DEDICATED_SERVER
+[01Mar2025 04:46:52.672] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/gui/screens/Screen (java.lang.RuntimeException: Attempted to load class net/minecraft/client/gui/screens/Screen for invalid dist DEDICATED_SERVER)
+[01Mar2025 04:46:52.672] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.gui.screens.Screen was not found relics.mixins.json:ScreenMixin
+[01Mar2025 04:46:53.702] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[01Mar2025 04:46:59.125] [main/WARN] [mixin/]: @Inject(@At("INVOKE_ASSIGN")) Shift.BY=2 on refurbished_furniture.common.mixins.json:LevelChunkMixin::handler$zlp000$refurbishedFurniture$AfterRemoveBlockEntity exceeds the maximum allowed value: 0. Increase the value of maxShiftBy to suppress this warning.
+[01Mar2025 04:46:59.801] [main/WARN] [mixin/]: Mixin alexscaves.mixins.json:SwampHutPieceMixin has multiple constructors, (Lnet/minecraft/world/level/levelgen/structure/pieces/StructurePieceType;IIIIIILnet/minecraft/core/Direction;)V was selected
 
-[28Feb2025 01:44:22.561] [modloading-worker-0/INFO] [Perfect Plushies/]: Hello Forge world!
-[28Feb2025 01:44:22.890] [modloading-worker-0/INFO] [com.jtorleonstudios.libraryferret.LibraryFerret/]: Initialize mod Library Ferret
-[28Feb2025 01:44:22.916] [modloading-worker-0/INFO] [com.jtorleonstudios.libraryferret.LibraryFerret/]: Initialized mod Library Ferret
-[28Feb2025 01:44:23.728] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.7, for MC 1.20.1 with MCP 20230612.114412
-[28Feb2025 01:44:23.728] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.7 Initialized
-[28Feb2025 01:44:25.065] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id architectury:sync_ids
-[28Feb2025 01:44:27.973] [main/INFO] [Moonlight/]: Initialized block sets in 22ms
-[28Feb2025 01:44:29.614] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.github.alexmodguy.alexscaves.server.entity.living.TremorzillaEntity from class com.github.alexmodguy.alexscaves.server.entity.living.LicowitchEntity
-[28Feb2025 01:44:29.617] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.klikli_dev.occultism.common.entity.spirit.DjinniEntity from class com.klikli_dev.occultism.common.entity.spirit.FoliotEntity
-[28Feb2025 01:44:29.861] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file /workspaces/turbo-guide/servidor_minecraft/config/legendarycreatures/legendarycreatures-common.toml is not correct. Correcting
-[28Feb2025 01:44:29.862] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key MobSpawning.wisp.Wisp Purse Xp Reward Range  was corrected from [30, 30] to its default, [30, 30]. 
-[28Feb2025 01:44:29.862] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key MobSpawning.nether_wisp.Nether Wisp Purse Xp Reward Range  was corrected from [80, 80] to its default, [80, 80]. 
-[28Feb2025 01:44:29.862] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key MobSpawning.ender_wisp.Ender Wisp Purse Xp Reward Range  was corrected from [240, 240] to its default, [240, 240]. 
-[28Feb2025 01:44:29.863] [Thread-2/WARN] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Configuration file /workspaces/turbo-guide/servidor_minecraft/config/legendarycreatures/legendarycreatures-common.toml is not correct. Correcting
-[28Feb2025 01:44:29.872] [Thread-2/WARN] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Configuration file /workspaces/turbo-guide/servidor_minecraft/config/legendarycreatures/legendarycreatures-common.toml is not correct. Correcting
-[28Feb2025 01:44:30.311] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [attributefix] Starting version check at https://updates.blamejared.com/get?n=attributefix&gv=1.20.1
-[28Feb2025 01:44:30.608] [modloading-worker-0/INFO] [com.klikli_dev.occultism.Occultism/]: Common setup complete.
-[28Feb2025 01:44:30.783] [main/INFO] [tacz/SYNCED_ENTITY_DATA_TAC_COPY]: Registered synced data key tacz:shoot_cool_down for minecraft:living_entity
-[28Feb2025 01:44:30.784] [main/INFO] [tacz/SYNCED_ENTITY_DATA_TAC_COPY]: Registered synced data key tacz:melee_cool_down for minecraft:living_entity
-[28Feb2025 01:44:30.784] [main/INFO] [tacz/SYNCED_ENTITY_DATA_TAC_COPY]: Registered synced data key tacz:reload_state for minecraft:living_entity
-[28Feb2025 01:44:30.784] [main/INFO] [tacz/SYNCED_ENTITY_DATA_TAC_COPY]: Registered synced data key tacz:aiming_progress for minecraft:living_entity
-[28Feb2025 01:44:30.784] [main/INFO] [tacz/SYNCED_ENTITY_DATA_TAC_COPY]: Registered synced data key tacz:draw_cool_down for minecraft:living_entity
-[28Feb2025 01:44:30.785] [main/INFO] [tacz/SYNCED_ENTITY_DATA_TAC_COPY]: Registered synced data key tacz:is_aiming for minecraft:living_entity
-[28Feb2025 01:44:30.785] [main/INFO] [tacz/SYNCED_ENTITY_DATA_TAC_COPY]: Registered synced data key tacz:sprint_time for minecraft:living_entity
-[28Feb2025 01:44:30.785] [main/INFO] [tacz/SYNCED_ENTITY_DATA_TAC_COPY]: Registered synced data key tacz:is_bolting for minecraft:living_entity
-[28Feb2025 01:44:30.828] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the FluidEffect with Unique ID of minecraft:water for Water (Fluid Amount Required: 1000) with the ID 0
-[28Feb2025 01:44:30.828] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the FluidEffect with Unique ID of minecraft:lava for Lava (Fluid Amount Required: 1000) with the ID 1
-[28Feb2025 01:44:30.829] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the FluidEffect with Unique ID of travelersbackpack:potion for Uncraftable Potion (Fluid Amount Required: 250) with the ID 2
-[28Feb2025 01:44:30.829] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the FluidEffect with Unique ID of minecraft:milk for Milk (Fluid Amount Required: 1000) with the ID 3
-[28Feb2025 01:44:30.902] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [attributefix] Found status: BETA Current: 21.0.4 Target: 21.0.4
-[28Feb2025 01:44:30.903] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [doggytalents] Starting version check at https://raw.githubusercontent.com/DashieDev/DoggyTalentsNext/0d05eaff7c4b588831ca6480f737187f44dda820/check_for_update/update.json
-[28Feb2025 01:44:30.921] [main/INFO] [Moonlight/]: Initialized color sets in 43ms
-[28Feb2025 01:44:30.924] [main/INFO] [terrablender/]: Registered region minecraft:overworld to index 0 for type OVERWORLD
-[28Feb2025 01:44:30.925] [main/INFO] [terrablender/]: Registered region minecraft:nether to index 0 for type NETHER
-[28Feb2025 01:44:30.925] [main/INFO] [terrablender/]: Registered region regions_unexplored:primary to index 1 for type OVERWORLD
-[28Feb2025 01:44:30.925] [main/INFO] [terrablender/]: Registered region regions_unexplored:secondary to index 2 for type OVERWORLD
-[28Feb2025 01:44:30.926] [main/INFO] [terrablender/]: Registered region regions_unexplored:nether to index 1 for type NETHER
-[28Feb2025 01:44:30.939] [main/INFO] [terrablender/]: Registered region biomesoplenty:overworld_primary to index 3 for type OVERWORLD
-[28Feb2025 01:44:30.939] [main/INFO] [terrablender/]: Registered region biomesoplenty:overworld_secondary to index 4 for type OVERWORLD
-[28Feb2025 01:44:30.939] [main/INFO] [terrablender/]: Registered region biomesoplenty:overworld_rare to index 5 for type OVERWORLD
-[28Feb2025 01:44:30.940] [main/INFO] [terrablender/]: Registered region biomesoplenty:nether_common to index 2 for type NETHER
-[28Feb2025 01:44:30.940] [main/INFO] [terrablender/]: Registered region biomesoplenty:nether_rare to index 3 for type NETHER
-[28Feb2025 01:44:30.947] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [doggytalents] Found status: BETA Current: 1.18.41 Target: 1.17.2
-[28Feb2025 01:44:30.947] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [goblintraders] Starting version check at https://mrcrayfish.com/modupdatejson?id=goblintraders
-[28Feb2025 01:44:31.005] [main/INFO] [Framework/SYNCED_ENTITY_DATA]: Registered synced data key refurbished_furniture:lock_yaw for refurbished_furniture:seat
-[28Feb2025 01:44:31.010] [main/INFO] [com.klikli_dev.occultism.Occultism/]: Registered compostable Items
-[28Feb2025 01:44:31.012] [modloading-worker-0/INFO] [xaero.map.server.WorldMapServer/]: Loading Xaero's World Map - Stage 1/2 (Server)
-[28Feb2025 01:44:31.012] [modloading-worker-0/INFO] [xaero.minimap.XaeroMinimap/]: Loading Xaero's Minimap - Stage 1/2 (Server)
-[28Feb2025 01:44:31.013] [modloading-worker-0/INFO] [com.klikli_dev.occultism.Occultism/]: Dedicated server setup complete.
-[28Feb2025 01:44:31.015] [main/INFO] [xaero.minimap.XaeroMinimap/]: Loading Xaero's Minimap - Stage 2/2 (Server)
-[28Feb2025 01:44:31.015] [main/INFO] [xaero.map.server.WorldMapServer/]: Loading Xaero's World Map - Stage 2/2 (Server)
-[28Feb2025 01:44:31.038] [modloading-worker-0/INFO] [AttributeFix/]: Loaded values for 25 compatible attributes.
-[28Feb2025 01:44:31.051] [modloading-worker-0/INFO] [AttributeFix/]: Loaded 25 values from config.
-[28Feb2025 01:44:31.057] [modloading-worker-0/INFO] [AttributeFix/]: Saving config file. 25 entries.
-[28Feb2025 01:44:31.058] [modloading-worker-0/INFO] [AttributeFix/]: Applying changes for 25 attributes.
-[28Feb2025 01:44:31.126] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at de.maxhenkel.corpse.integration.waila.PluginCorpse
-[28Feb2025 01:44:31.140] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.vanilla.VanillaPlugin
-[28Feb2025 01:44:31.163] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.universal.UniversalPlugin
-[28Feb2025 01:44:31.170] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.core.CorePlugin
-[28Feb2025 01:44:31.553] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [goblintraders] Found status: BETA Current: 1.9.3 Target: 1.9.3
-[28Feb2025 01:44:31.553] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forgeendertech] Starting version check at https://forge.curseupdate.com/244844/forgeendertech
-[28Feb2025 01:44:31.702] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forgeendertech] Found status: OUTDATED Current: 11.1.5.0 Target: 11.1.6.0
-[28Feb2025 01:44:31.703] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [travelersbackpack] Starting version check at https://gist.githubusercontent.com/Tiviacz1337/906937677aa472285dff9d6c2a189d5e/raw
-[28Feb2025 01:44:31.769] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [travelersbackpack] Found status: UP_TO_DATE Current: 9.1.16 Target: null
-[28Feb2025 01:44:31.770] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [adhooks] Starting version check at https://forge.curseupdate.com/244849/adhooks
-[28Feb2025 01:44:31.780] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [adhooks] Found status: UP_TO_DATE Current: 10.1.2.1 Target: null
-[28Feb2025 01:44:31.780] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
-[28Feb2025 01:44:31.931] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.3.7 Target: 47.3.33
-[28Feb2025 01:44:31.932] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [ctov] Starting version check at https://api.modrinth.com/updates/fgmhI8kH/forge_updates.json
-[28Feb2025 01:44:32.345] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [ctov] Found status: OUTDATED Current: 3.4.10 Target: 3.4.11
-[28Feb2025 01:44:32.345] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [corpse] Starting version check at https://update.maxhenkel.de/forge/corpse
-[28Feb2025 01:44:32.863] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [corpse] Found status: OUTDATED Current: 1.20.1-1.0.19 Target: 1.20.1-1.0.20
-[28Feb2025 01:44:32.864] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [moonlight] Starting version check at https://raw.githubusercontent.com/MehVahdJukaar/Moonlight/multi-loader/forge/update.json
-[28Feb2025 01:44:32.872] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [moonlight] Found status: BETA Current: 1.20-2.13.70 Target: null
-[28Feb2025 01:44:32.873] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [occultism] Starting version check at https://raw.githubusercontent.com/klikli-dev/occultism/meta/updates.json
-[28Feb2025 01:44:32.882] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [occultism] Found status: BETA Current: 1.141.2 Target: null
-[28Feb2025 01:44:32.883] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [refurbished_furniture] Starting version check at https://mrcrayfish.com/api/mod_update/forge/refurbished_furniture
-[28Feb2025 01:44:33.120] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [refurbished_furniture] Found status: BETA Current: 1.0.9 Target: 1.0.9
-[28Feb2025 01:44:33.120] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [framework] Starting version check at https://mrcrayfish.com/modupdatejson?id=framework
-[28Feb2025 01:44:34.091] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [framework] Found status: BETA Current: 0.7.12 Target: 0.7.12
-[28Feb2025 01:44:34.355] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[28Feb2025 01:44:36.784] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/turbo-guide/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23241!/assets/.mcassetsroot' uses unexpected schema
-[28Feb2025 01:44:36.785] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/turbo-guide/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23241!/data/.mcassetsroot' uses unexpected schema
-[28Feb2025 01:44:42.832] [main/INFO] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Adding datapack listener capsid_recipes
-[28Feb2025 01:44:43.030] [Worker-Main-3/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag ctov:wares/cardboard_box as it is missing following references: wares:cardboard_box (from [forge]ctov-3.4.10.jar)
-[28Feb2025 01:44:43.050] [Worker-Main-3/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag ctov:wares/sealed_delivery_agreement as it is missing following references: wares:sealed_delivery_agreement (from [forge]ctov-3.4.10.jar)
-[28Feb2025 01:44:43.960] [Worker-Main-1/ERROR] [net.minecraftforge.common.ForgeHooks/]: Couldn't parse element loot_tables:ctov:chests/village/village_forager
+[01Mar2025 04:47:00.330] [modloading-worker-0/INFO] [Perfect Plushies/]: Hello Forge world!
+[01Mar2025 04:47:00.570] [modloading-worker-0/INFO] [com.jtorleonstudios.libraryferret.LibraryFerret/]: Initialize mod Library Ferret
+[01Mar2025 04:47:00.591] [modloading-worker-0/INFO] [com.jtorleonstudios.libraryferret.LibraryFerret/]: Initialized mod Library Ferret
+[01Mar2025 04:47:01.205] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.3.7, for MC 1.20.1 with MCP 20230612.114412
+[01Mar2025 04:47:01.210] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.3.7 Initialized
+[01Mar2025 04:47:02.496] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id architectury:sync_ids
+[01Mar2025 04:47:05.053] [main/INFO] [Moonlight/]: Initialized block sets in 40ms
+[01Mar2025 04:47:06.722] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.github.alexmodguy.alexscaves.server.entity.living.TremorzillaEntity from class com.github.alexmodguy.alexscaves.server.entity.living.LicowitchEntity
+[01Mar2025 04:47:06.726] [main/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class com.klikli_dev.occultism.common.entity.spirit.DjinniEntity from class com.klikli_dev.occultism.common.entity.spirit.FoliotEntity
+[01Mar2025 04:47:06.909] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file /workspaces/turbo-guide/servidor_minecraft/config/legendarycreatures/legendarycreatures-common.toml is not correct. Correcting
+[01Mar2025 04:47:06.910] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key MobSpawning.wisp.Wisp Purse Xp Reward Range  was corrected from [30, 30] to its default, [30, 30]. 
+[01Mar2025 04:47:06.910] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key MobSpawning.nether_wisp.Nether Wisp Purse Xp Reward Range  was corrected from [80, 80] to its default, [80, 80]. 
+[01Mar2025 04:47:06.910] [main/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key MobSpawning.ender_wisp.Ender Wisp Purse Xp Reward Range  was corrected from [240, 240] to its default, [240, 240]. 
+[01Mar2025 04:47:06.925] [Thread-2/WARN] [net.minecraftforge.fml.config.ConfigFileTypeHandler/CONFIG]: Configuration file /workspaces/turbo-guide/servidor_minecraft/config/legendarycreatures/legendarycreatures-common.toml is not correct. Correcting
+[01Mar2025 04:47:07.462] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [attributefix] Starting version check at https://updates.blamejared.com/get?n=attributefix&gv=1.20.1
+[01Mar2025 04:47:07.725] [modloading-worker-0/INFO] [com.klikli_dev.occultism.Occultism/]: Common setup complete.
+[01Mar2025 04:47:08.060] [main/INFO] [tacz/SYNCED_ENTITY_DATA_TAC_COPY]: Registered synced data key tacz:shoot_cool_down for minecraft:living_entity
+[01Mar2025 04:47:08.060] [main/INFO] [tacz/SYNCED_ENTITY_DATA_TAC_COPY]: Registered synced data key tacz:melee_cool_down for minecraft:living_entity
+[01Mar2025 04:47:08.060] [main/INFO] [tacz/SYNCED_ENTITY_DATA_TAC_COPY]: Registered synced data key tacz:reload_state for minecraft:living_entity
+[01Mar2025 04:47:08.060] [main/INFO] [tacz/SYNCED_ENTITY_DATA_TAC_COPY]: Registered synced data key tacz:aiming_progress for minecraft:living_entity
+[01Mar2025 04:47:08.060] [main/INFO] [tacz/SYNCED_ENTITY_DATA_TAC_COPY]: Registered synced data key tacz:draw_cool_down for minecraft:living_entity
+[01Mar2025 04:47:08.061] [main/INFO] [tacz/SYNCED_ENTITY_DATA_TAC_COPY]: Registered synced data key tacz:is_aiming for minecraft:living_entity
+[01Mar2025 04:47:08.061] [main/INFO] [tacz/SYNCED_ENTITY_DATA_TAC_COPY]: Registered synced data key tacz:sprint_time for minecraft:living_entity
+[01Mar2025 04:47:08.061] [main/INFO] [tacz/SYNCED_ENTITY_DATA_TAC_COPY]: Registered synced data key tacz:is_bolting for minecraft:living_entity
+[01Mar2025 04:47:08.094] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the FluidEffect with Unique ID of minecraft:water for Water (Fluid Amount Required: 1000) with the ID 0
+[01Mar2025 04:47:08.094] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the FluidEffect with Unique ID of minecraft:lava for Lava (Fluid Amount Required: 1000) with the ID 1
+[01Mar2025 04:47:08.094] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the FluidEffect with Unique ID of travelersbackpack:potion for Uncraftable Potion (Fluid Amount Required: 250) with the ID 2
+[01Mar2025 04:47:08.095] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the FluidEffect with Unique ID of minecraft:milk for Milk (Fluid Amount Required: 1000) with the ID 3
+[01Mar2025 04:47:08.115] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [attributefix] Found status: BETA Current: 21.0.4 Target: 21.0.4
+[01Mar2025 04:47:08.115] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [doggytalents] Starting version check at https://raw.githubusercontent.com/DashieDev/DoggyTalentsNext/0d05eaff7c4b588831ca6480f737187f44dda820/check_for_update/update.json
+[01Mar2025 04:47:08.157] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [doggytalents] Found status: BETA Current: 1.18.41 Target: 1.17.2
+[01Mar2025 04:47:08.158] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [goblintraders] Starting version check at https://mrcrayfish.com/modupdatejson?id=goblintraders
+[01Mar2025 04:47:08.195] [main/INFO] [Moonlight/]: Initialized color sets in 38ms
+[01Mar2025 04:47:08.197] [main/INFO] [terrablender/]: Registered region minecraft:overworld to index 0 for type OVERWORLD
+[01Mar2025 04:47:08.198] [main/INFO] [terrablender/]: Registered region minecraft:nether to index 0 for type NETHER
+[01Mar2025 04:47:08.198] [main/INFO] [terrablender/]: Registered region regions_unexplored:primary to index 1 for type OVERWORLD
+[01Mar2025 04:47:08.198] [main/INFO] [terrablender/]: Registered region regions_unexplored:secondary to index 2 for type OVERWORLD
+[01Mar2025 04:47:08.198] [main/INFO] [terrablender/]: Registered region regions_unexplored:nether to index 1 for type NETHER
+[01Mar2025 04:47:08.209] [main/INFO] [terrablender/]: Registered region biomesoplenty:overworld_primary to index 3 for type OVERWORLD
+[01Mar2025 04:47:08.209] [main/INFO] [terrablender/]: Registered region biomesoplenty:overworld_secondary to index 4 for type OVERWORLD
+[01Mar2025 04:47:08.209] [main/INFO] [terrablender/]: Registered region biomesoplenty:overworld_rare to index 5 for type OVERWORLD
+[01Mar2025 04:47:08.209] [main/INFO] [terrablender/]: Registered region biomesoplenty:nether_common to index 2 for type NETHER
+[01Mar2025 04:47:08.209] [main/INFO] [terrablender/]: Registered region biomesoplenty:nether_rare to index 3 for type NETHER
+[01Mar2025 04:47:08.230] [main/INFO] [com.klikli_dev.occultism.Occultism/]: Registered compostable Items
+[01Mar2025 04:47:08.271] [main/INFO] [Framework/SYNCED_ENTITY_DATA]: Registered synced data key refurbished_furniture:lock_yaw for refurbished_furniture:seat
+[01Mar2025 04:47:08.284] [modloading-worker-0/INFO] [xaero.map.server.WorldMapServer/]: Loading Xaero's World Map - Stage 1/2 (Server)
+[01Mar2025 04:47:08.285] [modloading-worker-0/INFO] [xaero.minimap.XaeroMinimap/]: Loading Xaero's Minimap - Stage 1/2 (Server)
+[01Mar2025 04:47:08.285] [modloading-worker-0/INFO] [com.klikli_dev.occultism.Occultism/]: Dedicated server setup complete.
+[01Mar2025 04:47:08.286] [main/INFO] [xaero.map.server.WorldMapServer/]: Loading Xaero's World Map - Stage 2/2 (Server)
+[01Mar2025 04:47:08.288] [main/INFO] [xaero.minimap.XaeroMinimap/]: Loading Xaero's Minimap - Stage 2/2 (Server)
+[01Mar2025 04:47:08.312] [modloading-worker-0/INFO] [AttributeFix/]: Loaded values for 25 compatible attributes.
+[01Mar2025 04:47:08.317] [modloading-worker-0/INFO] [AttributeFix/]: Loaded 25 values from config.
+[01Mar2025 04:47:08.321] [modloading-worker-0/INFO] [AttributeFix/]: Saving config file. 25 entries.
+[01Mar2025 04:47:08.324] [modloading-worker-0/INFO] [AttributeFix/]: Applying changes for 25 attributes.
+[01Mar2025 04:47:08.350] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at de.maxhenkel.corpse.integration.waila.PluginCorpse
+[01Mar2025 04:47:08.363] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.vanilla.VanillaPlugin
+[01Mar2025 04:47:08.382] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.universal.UniversalPlugin
+[01Mar2025 04:47:08.388] [modloading-worker-0/INFO] [Jade/]: Start loading plugin at snownee.jade.addon.core.CorePlugin
+[01Mar2025 04:47:08.643] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [goblintraders] Found status: BETA Current: 1.9.3 Target: 1.9.3
+[01Mar2025 04:47:08.643] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forgeendertech] Starting version check at https://forge.curseupdate.com/244844/forgeendertech
+[01Mar2025 04:47:08.737] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forgeendertech] Found status: OUTDATED Current: 11.1.5.0 Target: 11.1.6.0
+[01Mar2025 04:47:08.737] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [travelersbackpack] Starting version check at https://gist.githubusercontent.com/Tiviacz1337/906937677aa472285dff9d6c2a189d5e/raw
+[01Mar2025 04:47:08.776] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [travelersbackpack] Found status: UP_TO_DATE Current: 9.1.16 Target: null
+[01Mar2025 04:47:08.777] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [adhooks] Starting version check at https://forge.curseupdate.com/244849/adhooks
+[01Mar2025 04:47:08.786] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [adhooks] Found status: UP_TO_DATE Current: 10.1.2.1 Target: null
+[01Mar2025 04:47:08.786] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[01Mar2025 04:47:08.908] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 47.3.7 Target: 47.3.33
+[01Mar2025 04:47:08.908] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [ctov] Starting version check at https://api.modrinth.com/updates/fgmhI8kH/forge_updates.json
+[01Mar2025 04:47:09.297] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [ctov] Found status: OUTDATED Current: 3.4.10 Target: 3.4.11
+[01Mar2025 04:47:09.297] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [corpse] Starting version check at https://update.maxhenkel.de/forge/corpse
+[01Mar2025 04:47:09.766] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [corpse] Found status: OUTDATED Current: 1.20.1-1.0.19 Target: 1.20.1-1.0.20
+[01Mar2025 04:47:09.767] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [moonlight] Starting version check at https://raw.githubusercontent.com/MehVahdJukaar/Moonlight/multi-loader/forge/update.json
+[01Mar2025 04:47:09.776] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [moonlight] Found status: BETA Current: 1.20-2.13.70 Target: null
+[01Mar2025 04:47:09.776] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [occultism] Starting version check at https://raw.githubusercontent.com/klikli-dev/occultism/meta/updates.json
+[01Mar2025 04:47:09.785] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [occultism] Found status: BETA Current: 1.141.2 Target: null
+[01Mar2025 04:47:09.785] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [refurbished_furniture] Starting version check at https://mrcrayfish.com/api/mod_update/forge/refurbished_furniture
+[01Mar2025 04:47:09.974] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [refurbished_furniture] Found status: BETA Current: 1.0.9 Target: 1.0.9
+[01Mar2025 04:47:09.975] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [framework] Starting version check at https://mrcrayfish.com/modupdatejson?id=framework
+[01Mar2025 04:47:10.383] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [framework] Found status: BETA Current: 0.7.12 Target: 0.7.12
+[01Mar2025 04:47:11.870] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[01Mar2025 04:47:14.045] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/turbo-guide/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23241!/assets/.mcassetsroot' uses unexpected schema
+[01Mar2025 04:47:14.045] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/workspaces/turbo-guide/servidor_minecraft/libraries/net/minecraft/server/1.20.1-20230612.114412/server-1.20.1-20230612.114412-srg.jar%23241!/data/.mcassetsroot' uses unexpected schema
+[01Mar2025 04:47:20.898] [main/INFO] [com.github.alexthe666.alexsmobs.AlexsMobs/]: Adding datapack listener capsid_recipes
+[01Mar2025 04:47:21.201] [Worker-Main-3/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag ctov:wares/cardboard_box as it is missing following references: wares:cardboard_box (from [forge]ctov-3.4.10.jar)
+[01Mar2025 04:47:21.207] [Worker-Main-3/ERROR] [net.minecraft.tags.TagLoader/]: Couldn't load tag ctov:wares/sealed_delivery_agreement as it is missing following references: wares:sealed_delivery_agreement (from [forge]ctov-3.4.10.jar)
+[01Mar2025 04:47:22.228] [Worker-Main-2/ERROR] [net.minecraftforge.common.ForgeHooks/]: Couldn't parse element loot_tables:ctov:chests/village/village_forager
 com.google.gson.JsonSyntaxException: Missing expand, expected to find a Boolean
 	at net.minecraft.util.GsonHelper.m_13912_(GsonHelper.java:181) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
 	at net.minecraft.world.level.storage.loot.entries.TagEntry$Serializer.m_7267_(TagEntry.java:86) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
@@ -156,573 +155,53 @@ com.google.gson.JsonSyntaxException: Missing expand, expected to find a Boolean
 	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655) ~[?:?]
 	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622) ~[?:?]
 	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165) ~[?:?]
-[28Feb2025 01:44:44.285] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Datapack tried to redefine minecraft:empty loot table, ignoring
-[28Feb2025 01:44:44.705] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 26 recipes
-[28Feb2025 01:44:44.908] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 4398 advancements
-[28Feb2025 01:44:45.005] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 11 curio slots
-[28Feb2025 01:44:45.011] [main/ERROR] [top.theillusivec4.curios.Curios/]: talisman is not a registered slot type!
-[28Feb2025 01:44:45.012] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 1 curio entities
-[28Feb2025 01:44:45.063] [main/WARN] [net.minecraft.core.MappedRegistry/]: Not all defined tags for registry ResourceKey[minecraft:root / minecraft:worldgen/biome] are present in data pack: legendarycreatures:has_baby_scorpion, legendarycreatures:has_corpse_eater, legendarycreatures:has_desert_mojo, legendarycreatures:has_forest_mojo, legendarycreatures:has_scarecrow
-[28Feb2025 01:44:47.126] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
-[28Feb2025 01:44:47.126] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
-[28Feb2025 01:44:47.127] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
-[28Feb2025 01:44:47.127] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
-[28Feb2025 01:44:47.197] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
-[28Feb2025 01:44:47.224] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
-[28Feb2025 01:44:47.311] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[28Feb2025 01:44:47.311] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
-[28Feb2025 01:44:47.311] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[28Feb2025 01:44:47.312] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
-[28Feb2025 01:44:47.718] [Server thread/INFO] [Framework/]: Loading server configs...
-[28Feb2025 01:44:48.390] [Server thread/INFO] [terrablender/]: Initialized TerraBlender biomes for level stem minecraft:overworld
-[28Feb2025 01:44:48.391] [Server thread/INFO] [terrablender/]: Initialized TerraBlender biomes for level stem minecraft:the_nether
-[28Feb2025 01:44:48.391] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
-[28Feb2025 01:44:53.927] [Server thread/INFO] [net.regions_unexplored.RegionsUnexploredMod/]: Loading dimension "minecraft:the_nether" with biome source: "minecraft:multi_noise".
-[28Feb2025 01:44:53.927] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
-[28Feb2025 01:44:59.108] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[28Feb2025 01:44:59.110] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[28Feb2025 01:44:59.110] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[28Feb2025 01:44:59.111] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[28Feb2025 01:44:59.111] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[28Feb2025 01:44:59.112] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[28Feb2025 01:44:59.112] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[28Feb2025 01:44:59.113] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[28Feb2025 01:44:59.114] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[28Feb2025 01:44:59.114] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[28Feb2025 01:44:59.114] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[28Feb2025 01:44:59.428] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[28Feb2025 01:44:59.982] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 24%
-[28Feb2025 01:45:00.428] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 86%
-[28Feb2025 01:45:00.519] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 6591 ms
-[28Feb2025 01:45:00.520] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (13.195s)! For help, type "help"
-[28Feb2025 01:45:00.584] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
-[28Feb2025 01:45:00.634] [Server thread/INFO] [net.bettercombat.logic.WeaponRegistry/]: Encoded Weapon Attribute registry size (with package overhead): 55543 bytes (in 6 string chunks with the size of 10000)
-[28Feb2025 01:46:18.344] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.player.Player from class tschipp.carryon.common.carry.CarryOnDataManager
-[28Feb2025 01:46:18.419] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Joaking[/127.196.106.80:52045] logged in with entity id 235 at (70.29314802839659, 70.0, -282.3132503932275)
-[28Feb2025 01:46:18.471] [Server thread/INFO] [Modonomicon/]: Building books ...
-[28Feb2025 01:46:18.482] [Server thread/INFO] [Modonomicon/]: Books built.
-[28Feb2025 01:46:18.581] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Joaking joined the game
-[28Feb2025 01:46:18.851] [Server thread/INFO] [Jade/]: Syncing config to Joaking (bb25bdb7-3aaa-3db7-b895-6ae3167c8512)
-[28Feb2025 01:49:59.199] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Joaking: Set own game mode to Creative Mode]
-[28Feb2025 01:50:28.113] [Worker-Main-1/WARN] [lithostitched/]: Non-existent template pool reference: ctov:village/vampirism/totem
-[28Feb2025 01:50:28.279] [Worker-Main-1/WARN] [lithostitched/]: Non-existent template pool reference: ctov:village/bounty/plains
-[28Feb2025 01:50:28.280] [Worker-Main-1/WARN] [lithostitched/]: Non-existent template pool reference: ctov:village/waystone/normal
-[28Feb2025 01:50:34.205] [Worker-Main-1/WARN] [lithostitched/]: Non-existent template pool reference: ctov:village/vampirism/totem
-[28Feb2025 01:50:34.206] [Worker-Main-1/WARN] [lithostitched/]: Non-existent template pool reference: ctov:village/bounty/plains
-[28Feb2025 01:50:34.218] [Worker-Main-1/WARN] [lithostitched/]: Non-existent template pool reference: ctov:village/waystone/normal
-[28Feb2025 01:50:39.093] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Joaking: Teleported Joaking to -1059.500000, 89.720000, 925.500000]
-[28Feb2025 01:50:39.093] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 11058ms or 221 ticks behind
-[28Feb2025 01:50:58.493] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 4407ms or 88 ticks behind
-[28Feb2025 01:51:56.331] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Joaking: Set own game mode to Survival Mode]
-[28Feb2025 01:52:57.683] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Joaking has made the advancement ['X' Marks the Spot]
-[28Feb2025 01:52:57.691] [Server thread/ERROR] [net.minecraft.network.protocol.PacketUtils/]: Failed to handle packet net.minecraft.network.protocol.game.ServerboundUseItemOnPacket@11ca95a0, suppressing error
-java.util.NoSuchElementException: No value present
-	at java.util.Optional.get(Optional.java:143) ~[?:?]
-	at com.nyfaria.perfectplushieapi.loot.VillageLootModifier.doApply(VillageLootModifier.java:43) ~[perfectplushieapi-forge-1.20.1-0.1.1.jar%23276!/:0.1.1]
-	at net.minecraftforge.common.loot.LootModifier.apply(LootModifier.java:58) ~[forge-1.20.1-47.3.7-universal.jar%23246!/:?]
-	at net.minecraftforge.common.ForgeHooks.modifyLoot(ForgeHooks.java:1186) ~[forge-1.20.1-47.3.7-universal.jar%23246!/:?]
-	at net.minecraft.world.level.storage.loot.LootTable.m_230922_(LootTable.java:118) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
-	at net.minecraft.world.level.storage.loot.LootTable.m_287188_(LootTable.java:139) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
-	at noobanidus.mods.lootr.block.entities.LootrChestBlockEntity.unpackLootTable(LootrChestBlockEntity.java:279) ~[lootr-forge-1.20-0.7.35.90%20(1).jar%23207!/:0.7.35.90]
-	at noobanidus.mods.lootr.data.ChestData.createInventory(ChestData.java:363) ~[lootr-forge-1.20-0.7.35.90%20(1).jar%23207!/:0.7.35.90]
-	at noobanidus.mods.lootr.data.DataStorage.getInventory(DataStorage.java:338) ~[lootr-forge-1.20-0.7.35.90%20(1).jar%23207!/:0.7.35.90]
-	at noobanidus.mods.lootr.util.ChestUtil.handleLootChest(ChestUtil.java:142) ~[lootr-forge-1.20-0.7.35.90%20(1).jar%23207!/:0.7.35.90]
-	at noobanidus.mods.lootr.block.LootrChestBlock.m_6227_(LootrChestBlock.java:50) ~[lootr-forge-1.20-0.7.35.90%20(1).jar%23207!/:0.7.35.90]
-	at net.minecraft.world.level.block.state.BlockBehaviour$BlockStateBase.m_60664_(BlockBehaviour.java:778) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
-	at net.minecraft.server.level.ServerPlayerGameMode.m_7179_(ServerPlayerGameMode.java:343) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
-	at net.minecraft.server.network.ServerGamePacketListenerImpl.m_6371_(ServerGamePacketListenerImpl.java:1055) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
-	at net.minecraft.network.protocol.game.ServerboundUseItemOnPacket.m_5797_(ServerboundUseItemOnPacket.java:34) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
-	at net.minecraft.network.protocol.game.ServerboundUseItemOnPacket.m_5797_(ServerboundUseItemOnPacket.java:8) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
-	at net.minecraft.network.protocol.PacketUtils.m_263899_(PacketUtils.java:22) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
-	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
-	at net.minecraft.util.thread.BlockableEventLoop.m_6367_(BlockableEventLoop.java:156) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
-	at net.minecraft.util.thread.ReentrantBlockableEventLoop.m_6367_(ReentrantBlockableEventLoop.java:23) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
-	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:770) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
-	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:161) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
-	at net.minecraft.util.thread.BlockableEventLoop.m_7245_(BlockableEventLoop.java:130) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
-	at net.minecraft.server.MinecraftServer.m_129961_(MinecraftServer.java:753) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
-	at net.minecraft.server.MinecraftServer.m_7245_(MinecraftServer.java:747) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
-	at net.minecraft.util.thread.BlockableEventLoop.m_18701_(BlockableEventLoop.java:139) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
-	at net.minecraft.server.MinecraftServer.m_130012_(MinecraftServer.java:733) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
-	at net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:665) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
-	at net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:251) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
-	at java.lang.Thread.run(Thread.java:840) ~[?:?]
-[28Feb2025 01:53:02.277] [Server thread/ERROR] [net.minecraft.network.protocol.PacketUtils/]: Failed to handle packet net.minecraft.network.protocol.game.ServerboundUseItemOnPacket@39a28a35, suppressing error
-java.util.NoSuchElementException: No value present
-	at java.util.Optional.get(Optional.java:143) ~[?:?]
-	at com.nyfaria.perfectplushieapi.loot.VillageLootModifier.doApply(VillageLootModifier.java:43) ~[perfectplushieapi-forge-1.20.1-0.1.1.jar%23276!/:0.1.1]
-	at net.minecraftforge.common.loot.LootModifier.apply(LootModifier.java:58) ~[forge-1.20.1-47.3.7-universal.jar%23246!/:?]
-	at net.minecraftforge.common.ForgeHooks.modifyLoot(ForgeHooks.java:1186) ~[forge-1.20.1-47.3.7-universal.jar%23246!/:?]
-	at net.minecraft.world.level.storage.loot.LootTable.m_230922_(LootTable.java:118) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
-	at net.minecraft.world.level.storage.loot.LootTable.m_287188_(LootTable.java:139) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
-	at noobanidus.mods.lootr.block.entities.LootrChestBlockEntity.unpackLootTable(LootrChestBlockEntity.java:279) ~[lootr-forge-1.20-0.7.35.90%20(1).jar%23207!/:0.7.35.90]
-	at noobanidus.mods.lootr.data.ChestData.createInventory(ChestData.java:363) ~[lootr-forge-1.20-0.7.35.90%20(1).jar%23207!/:0.7.35.90]
-	at noobanidus.mods.lootr.data.DataStorage.getInventory(DataStorage.java:338) ~[lootr-forge-1.20-0.7.35.90%20(1).jar%23207!/:0.7.35.90]
-	at noobanidus.mods.lootr.util.ChestUtil.handleLootChest(ChestUtil.java:142) ~[lootr-forge-1.20-0.7.35.90%20(1).jar%23207!/:0.7.35.90]
-	at noobanidus.mods.lootr.block.LootrChestBlock.m_6227_(LootrChestBlock.java:50) ~[lootr-forge-1.20-0.7.35.90%20(1).jar%23207!/:0.7.35.90]
-	at net.minecraft.world.level.block.state.BlockBehaviour$BlockStateBase.m_60664_(BlockBehaviour.java:778) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
-	at net.minecraft.server.level.ServerPlayerGameMode.m_7179_(ServerPlayerGameMode.java:343) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
-	at net.minecraft.server.network.ServerGamePacketListenerImpl.m_6371_(ServerGamePacketListenerImpl.java:1055) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
-	at net.minecraft.network.protocol.game.ServerboundUseItemOnPacket.m_5797_(ServerboundUseItemOnPacket.java:34) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
-	at net.minecraft.network.protocol.game.ServerboundUseItemOnPacket.m_5797_(ServerboundUseItemOnPacket.java:8) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
-	at net.minecraft.network.protocol.PacketUtils.m_263899_(PacketUtils.java:22) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
-	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
-	at net.minecraft.util.thread.BlockableEventLoop.m_6367_(BlockableEventLoop.java:156) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
-	at net.minecraft.util.thread.ReentrantBlockableEventLoop.m_6367_(ReentrantBlockableEventLoop.java:23) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
-	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:770) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
-	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:161) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
-	at net.minecraft.util.thread.BlockableEventLoop.m_7245_(BlockableEventLoop.java:130) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
-	at net.minecraft.server.MinecraftServer.m_129961_(MinecraftServer.java:753) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
-	at net.minecraft.server.MinecraftServer.m_7245_(MinecraftServer.java:747) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
-	at net.minecraft.util.thread.BlockableEventLoop.m_18701_(BlockableEventLoop.java:139) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
-	at net.minecraft.server.MinecraftServer.m_130012_(MinecraftServer.java:733) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
-	at net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:665) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
-	at net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:251) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
-	at java.lang.Thread.run(Thread.java:840) ~[?:?]
-[28Feb2025 01:53:33.181] [Server thread/ERROR] [net.minecraft.network.protocol.PacketUtils/]: Failed to handle packet net.minecraft.network.protocol.game.ServerboundUseItemOnPacket@1a8dd1fa, suppressing error
-java.util.NoSuchElementException: No value present
-	at java.util.Optional.get(Optional.java:143) ~[?:?]
-	at com.nyfaria.perfectplushieapi.loot.VillageLootModifier.doApply(VillageLootModifier.java:43) ~[perfectplushieapi-forge-1.20.1-0.1.1.jar%23276!/:0.1.1]
-	at net.minecraftforge.common.loot.LootModifier.apply(LootModifier.java:58) ~[forge-1.20.1-47.3.7-universal.jar%23246!/:?]
-	at net.minecraftforge.common.ForgeHooks.modifyLoot(ForgeHooks.java:1186) ~[forge-1.20.1-47.3.7-universal.jar%23246!/:?]
-	at net.minecraft.world.level.storage.loot.LootTable.m_230922_(LootTable.java:118) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
-	at net.minecraft.world.level.storage.loot.LootTable.m_287188_(LootTable.java:139) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
-	at noobanidus.mods.lootr.block.entities.LootrChestBlockEntity.unpackLootTable(LootrChestBlockEntity.java:279) ~[lootr-forge-1.20-0.7.35.90%20(1).jar%23207!/:0.7.35.90]
-	at noobanidus.mods.lootr.data.ChestData.createInventory(ChestData.java:363) ~[lootr-forge-1.20-0.7.35.90%20(1).jar%23207!/:0.7.35.90]
-	at noobanidus.mods.lootr.data.DataStorage.getInventory(DataStorage.java:338) ~[lootr-forge-1.20-0.7.35.90%20(1).jar%23207!/:0.7.35.90]
-	at noobanidus.mods.lootr.util.ChestUtil.handleLootChest(ChestUtil.java:142) ~[lootr-forge-1.20-0.7.35.90%20(1).jar%23207!/:0.7.35.90]
-	at noobanidus.mods.lootr.block.LootrChestBlock.m_6227_(LootrChestBlock.java:50) ~[lootr-forge-1.20-0.7.35.90%20(1).jar%23207!/:0.7.35.90]
-	at net.minecraft.world.level.block.state.BlockBehaviour$BlockStateBase.m_60664_(BlockBehaviour.java:778) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
-	at net.minecraft.server.level.ServerPlayerGameMode.m_7179_(ServerPlayerGameMode.java:343) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
-	at net.minecraft.server.network.ServerGamePacketListenerImpl.m_6371_(ServerGamePacketListenerImpl.java:1055) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
-	at net.minecraft.network.protocol.game.ServerboundUseItemOnPacket.m_5797_(ServerboundUseItemOnPacket.java:34) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
-	at net.minecraft.network.protocol.game.ServerboundUseItemOnPacket.m_5797_(ServerboundUseItemOnPacket.java:8) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
-	at net.minecraft.network.protocol.PacketUtils.m_263899_(PacketUtils.java:22) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
-	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
-	at net.minecraft.util.thread.BlockableEventLoop.m_6367_(BlockableEventLoop.java:156) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
-	at net.minecraft.util.thread.ReentrantBlockableEventLoop.m_6367_(ReentrantBlockableEventLoop.java:23) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
-	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:770) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
-	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:161) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
-	at net.minecraft.util.thread.BlockableEventLoop.m_7245_(BlockableEventLoop.java:130) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
-	at net.minecraft.server.MinecraftServer.m_129961_(MinecraftServer.java:753) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
-	at net.minecraft.server.MinecraftServer.m_7245_(MinecraftServer.java:747) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
-	at net.minecraft.util.thread.BlockableEventLoop.m_18701_(BlockableEventLoop.java:139) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
-	at net.minecraft.server.MinecraftServer.m_130012_(MinecraftServer.java:733) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
-	at net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:665) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
-	at net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:251) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
-	at java.lang.Thread.run(Thread.java:840) ~[?:?]
-[28Feb2025 01:54:03.180] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: sofita[/127.156.232.154:33511] logged in with entity id 3654 at (60.5, 69.0, -281.5)
-[28Feb2025 01:54:03.196] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: sofita joined the game
-[28Feb2025 01:54:03.241] [Server thread/INFO] [Jade/]: Syncing config to sofita (9c068b3a-05d0-3a86-a467-4310007c24a3)
-[28Feb2025 01:54:59.672] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Joaking: Teleported sofita to Joaking]
-[28Feb2025 01:55:58.134] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: sofita has made the advancement ['X' Marks the Spot]
-[28Feb2025 01:56:00.356] [Server thread/ERROR] [net.minecraft.network.protocol.PacketUtils/]: Failed to handle packet net.minecraft.network.protocol.game.ServerboundUseItemOnPacket@2eaa4455, suppressing error
-java.util.NoSuchElementException: No value present
-	at java.util.Optional.get(Optional.java:143) ~[?:?]
-	at com.nyfaria.perfectplushieapi.loot.VillageLootModifier.doApply(VillageLootModifier.java:43) ~[perfectplushieapi-forge-1.20.1-0.1.1.jar%23276!/:0.1.1]
-	at net.minecraftforge.common.loot.LootModifier.apply(LootModifier.java:58) ~[forge-1.20.1-47.3.7-universal.jar%23246!/:?]
-	at net.minecraftforge.common.ForgeHooks.modifyLoot(ForgeHooks.java:1186) ~[forge-1.20.1-47.3.7-universal.jar%23246!/:?]
-	at net.minecraft.world.level.storage.loot.LootTable.m_230922_(LootTable.java:118) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
-	at net.minecraft.world.level.storage.loot.LootTable.m_287188_(LootTable.java:139) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
-	at noobanidus.mods.lootr.block.entities.LootrChestBlockEntity.unpackLootTable(LootrChestBlockEntity.java:279) ~[lootr-forge-1.20-0.7.35.90%20(1).jar%23207!/:0.7.35.90]
-	at noobanidus.mods.lootr.data.ChestData.createInventory(ChestData.java:363) ~[lootr-forge-1.20-0.7.35.90%20(1).jar%23207!/:0.7.35.90]
-	at noobanidus.mods.lootr.data.DataStorage.getInventory(DataStorage.java:338) ~[lootr-forge-1.20-0.7.35.90%20(1).jar%23207!/:0.7.35.90]
-	at noobanidus.mods.lootr.util.ChestUtil.handleLootChest(ChestUtil.java:142) ~[lootr-forge-1.20-0.7.35.90%20(1).jar%23207!/:0.7.35.90]
-	at noobanidus.mods.lootr.block.LootrChestBlock.m_6227_(LootrChestBlock.java:50) ~[lootr-forge-1.20-0.7.35.90%20(1).jar%23207!/:0.7.35.90]
-	at net.minecraft.world.level.block.state.BlockBehaviour$BlockStateBase.m_60664_(BlockBehaviour.java:778) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
-	at net.minecraft.server.level.ServerPlayerGameMode.m_7179_(ServerPlayerGameMode.java:343) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
-	at net.minecraft.server.network.ServerGamePacketListenerImpl.m_6371_(ServerGamePacketListenerImpl.java:1055) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
-	at net.minecraft.network.protocol.game.ServerboundUseItemOnPacket.m_5797_(ServerboundUseItemOnPacket.java:34) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
-	at net.minecraft.network.protocol.game.ServerboundUseItemOnPacket.m_5797_(ServerboundUseItemOnPacket.java:8) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
-	at net.minecraft.network.protocol.PacketUtils.m_263899_(PacketUtils.java:22) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
-	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
-	at net.minecraft.util.thread.BlockableEventLoop.m_6367_(BlockableEventLoop.java:156) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
-	at net.minecraft.util.thread.ReentrantBlockableEventLoop.m_6367_(ReentrantBlockableEventLoop.java:23) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
-	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:770) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
-	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:161) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
-	at net.minecraft.util.thread.BlockableEventLoop.m_7245_(BlockableEventLoop.java:130) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
-	at net.minecraft.server.MinecraftServer.m_129961_(MinecraftServer.java:753) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
-	at net.minecraft.server.MinecraftServer.m_7245_(MinecraftServer.java:747) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
-	at net.minecraft.util.thread.BlockableEventLoop.m_18699_(BlockableEventLoop.java:115) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
-	at net.minecraft.server.MinecraftServer.m_130012_(MinecraftServer.java:732) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
-	at net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:665) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
-	at net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:251) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
-	at java.lang.Thread.run(Thread.java:840) ~[?:?]
-[28Feb2025 01:56:25.265] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Joaking has made the advancement [Monster Hunter]
-[28Feb2025 01:56:29.718] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: sofita has made the advancement [Alex's Mobs]
-[28Feb2025 01:56:40.705] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: sofita has made the advancement [Sweet Dreams]
-[28Feb2025 01:56:43.625] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Joaking has made the advancement [Sweet Dreams]
-[28Feb2025 01:57:16.768] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: sofita has made the advancement [Hunt and Gather]
-[28Feb2025 01:57:35.759] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Joaking has made the advancement [Crops of the Wild]
-[28Feb2025 01:58:33.176] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Joaking has made the advancement [Disme A Dozen]
-[28Feb2025 01:58:36.214] [Server thread/ERROR] [net.minecraft.network.protocol.PacketUtils/]: Failed to handle packet net.minecraft.network.protocol.game.ServerboundUseItemOnPacket@3ff87c81, suppressing error
-java.util.NoSuchElementException: No value present
-	at java.util.Optional.get(Optional.java:143) ~[?:?]
-	at com.nyfaria.perfectplushieapi.loot.VillageLootModifier.doApply(VillageLootModifier.java:43) ~[perfectplushieapi-forge-1.20.1-0.1.1.jar%23276!/:0.1.1]
-	at net.minecraftforge.common.loot.LootModifier.apply(LootModifier.java:58) ~[forge-1.20.1-47.3.7-universal.jar%23246!/:?]
-	at net.minecraftforge.common.ForgeHooks.modifyLoot(ForgeHooks.java:1186) ~[forge-1.20.1-47.3.7-universal.jar%23246!/:?]
-	at net.minecraft.world.level.storage.loot.LootTable.m_230922_(LootTable.java:118) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
-	at net.minecraft.world.level.storage.loot.LootTable.m_287188_(LootTable.java:139) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
-	at noobanidus.mods.lootr.block.entities.LootrChestBlockEntity.unpackLootTable(LootrChestBlockEntity.java:279) ~[lootr-forge-1.20-0.7.35.90%20(1).jar%23207!/:0.7.35.90]
-	at noobanidus.mods.lootr.data.ChestData.createInventory(ChestData.java:363) ~[lootr-forge-1.20-0.7.35.90%20(1).jar%23207!/:0.7.35.90]
-	at noobanidus.mods.lootr.data.DataStorage.getInventory(DataStorage.java:338) ~[lootr-forge-1.20-0.7.35.90%20(1).jar%23207!/:0.7.35.90]
-	at noobanidus.mods.lootr.util.ChestUtil.handleLootChest(ChestUtil.java:142) ~[lootr-forge-1.20-0.7.35.90%20(1).jar%23207!/:0.7.35.90]
-	at noobanidus.mods.lootr.block.LootrChestBlock.m_6227_(LootrChestBlock.java:50) ~[lootr-forge-1.20-0.7.35.90%20(1).jar%23207!/:0.7.35.90]
-	at net.minecraft.world.level.block.state.BlockBehaviour$BlockStateBase.m_60664_(BlockBehaviour.java:778) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
-	at net.minecraft.server.level.ServerPlayerGameMode.m_7179_(ServerPlayerGameMode.java:343) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
-	at net.minecraft.server.network.ServerGamePacketListenerImpl.m_6371_(ServerGamePacketListenerImpl.java:1055) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
-	at net.minecraft.network.protocol.game.ServerboundUseItemOnPacket.m_5797_(ServerboundUseItemOnPacket.java:34) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
-	at net.minecraft.network.protocol.game.ServerboundUseItemOnPacket.m_5797_(ServerboundUseItemOnPacket.java:8) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
-	at net.minecraft.network.protocol.PacketUtils.m_263899_(PacketUtils.java:22) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
-	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
-	at net.minecraft.util.thread.BlockableEventLoop.m_6367_(BlockableEventLoop.java:156) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
-	at net.minecraft.util.thread.ReentrantBlockableEventLoop.m_6367_(ReentrantBlockableEventLoop.java:23) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
-	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:770) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
-	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:161) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
-	at net.minecraft.util.thread.BlockableEventLoop.m_7245_(BlockableEventLoop.java:130) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
-	at net.minecraft.server.MinecraftServer.m_129961_(MinecraftServer.java:753) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
-	at net.minecraft.server.MinecraftServer.m_7245_(MinecraftServer.java:747) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
-	at net.minecraft.util.thread.BlockableEventLoop.m_18701_(BlockableEventLoop.java:139) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
-	at net.minecraft.server.MinecraftServer.m_130012_(MinecraftServer.java:733) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
-	at net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:665) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
-	at net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:251) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
-	at java.lang.Thread.run(Thread.java:840) ~[?:?]
-[28Feb2025 01:58:37.262] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: sofita has made the advancement [Disme A Dozen]
-[28Feb2025 01:58:42.966] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Joaking has made the advancement [Hunt and Gather]
-[28Feb2025 01:59:14.820] [Server thread/ERROR] [net.minecraft.network.protocol.PacketUtils/]: Failed to handle packet net.minecraft.network.protocol.game.ServerboundUseItemOnPacket@5e9e597c, suppressing error
-java.util.NoSuchElementException: No value present
-	at java.util.Optional.get(Optional.java:143) ~[?:?]
-	at com.nyfaria.perfectplushieapi.loot.VillageLootModifier.doApply(VillageLootModifier.java:43) ~[perfectplushieapi-forge-1.20.1-0.1.1.jar%23276!/:0.1.1]
-	at net.minecraftforge.common.loot.LootModifier.apply(LootModifier.java:58) ~[forge-1.20.1-47.3.7-universal.jar%23246!/:?]
-	at net.minecraftforge.common.ForgeHooks.modifyLoot(ForgeHooks.java:1186) ~[forge-1.20.1-47.3.7-universal.jar%23246!/:?]
-	at net.minecraft.world.level.storage.loot.LootTable.m_230922_(LootTable.java:118) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
-	at net.minecraft.world.level.storage.loot.LootTable.m_287188_(LootTable.java:139) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
-	at noobanidus.mods.lootr.block.entities.LootrChestBlockEntity.unpackLootTable(LootrChestBlockEntity.java:279) ~[lootr-forge-1.20-0.7.35.90%20(1).jar%23207!/:0.7.35.90]
-	at noobanidus.mods.lootr.data.ChestData.createInventory(ChestData.java:363) ~[lootr-forge-1.20-0.7.35.90%20(1).jar%23207!/:0.7.35.90]
-	at noobanidus.mods.lootr.data.DataStorage.getInventory(DataStorage.java:338) ~[lootr-forge-1.20-0.7.35.90%20(1).jar%23207!/:0.7.35.90]
-	at noobanidus.mods.lootr.util.ChestUtil.handleLootChest(ChestUtil.java:142) ~[lootr-forge-1.20-0.7.35.90%20(1).jar%23207!/:0.7.35.90]
-	at noobanidus.mods.lootr.block.LootrChestBlock.m_6227_(LootrChestBlock.java:50) ~[lootr-forge-1.20-0.7.35.90%20(1).jar%23207!/:0.7.35.90]
-	at net.minecraft.world.level.block.state.BlockBehaviour$BlockStateBase.m_60664_(BlockBehaviour.java:778) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
-	at net.minecraft.server.level.ServerPlayerGameMode.m_7179_(ServerPlayerGameMode.java:343) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
-	at net.minecraft.server.network.ServerGamePacketListenerImpl.m_6371_(ServerGamePacketListenerImpl.java:1055) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
-	at net.minecraft.network.protocol.game.ServerboundUseItemOnPacket.m_5797_(ServerboundUseItemOnPacket.java:34) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
-	at net.minecraft.network.protocol.game.ServerboundUseItemOnPacket.m_5797_(ServerboundUseItemOnPacket.java:8) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
-	at net.minecraft.network.protocol.PacketUtils.m_263899_(PacketUtils.java:22) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
-	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
-	at net.minecraft.util.thread.BlockableEventLoop.m_6367_(BlockableEventLoop.java:156) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
-	at net.minecraft.util.thread.ReentrantBlockableEventLoop.m_6367_(ReentrantBlockableEventLoop.java:23) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
-	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:770) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
-	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:161) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
-	at net.minecraft.util.thread.BlockableEventLoop.m_7245_(BlockableEventLoop.java:130) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
-	at net.minecraft.server.MinecraftServer.m_129961_(MinecraftServer.java:753) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
-	at net.minecraft.server.MinecraftServer.m_7245_(MinecraftServer.java:747) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
-	at net.minecraft.util.thread.BlockableEventLoop.m_18701_(BlockableEventLoop.java:139) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
-	at net.minecraft.server.MinecraftServer.m_130012_(MinecraftServer.java:733) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
-	at net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:665) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
-	at net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:251) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
-	at java.lang.Thread.run(Thread.java:840) ~[?:?]
-[28Feb2025 01:59:15.115] [Server thread/ERROR] [net.minecraft.network.protocol.PacketUtils/]: Failed to handle packet net.minecraft.network.protocol.game.ServerboundUseItemOnPacket@5e173f1, suppressing error
-java.util.NoSuchElementException: No value present
-	at java.util.Optional.get(Optional.java:143) ~[?:?]
-	at com.nyfaria.perfectplushieapi.loot.VillageLootModifier.doApply(VillageLootModifier.java:43) ~[perfectplushieapi-forge-1.20.1-0.1.1.jar%23276!/:0.1.1]
-	at net.minecraftforge.common.loot.LootModifier.apply(LootModifier.java:58) ~[forge-1.20.1-47.3.7-universal.jar%23246!/:?]
-	at net.minecraftforge.common.ForgeHooks.modifyLoot(ForgeHooks.java:1186) ~[forge-1.20.1-47.3.7-universal.jar%23246!/:?]
-	at net.minecraft.world.level.storage.loot.LootTable.m_230922_(LootTable.java:118) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
-	at net.minecraft.world.level.storage.loot.LootTable.m_287188_(LootTable.java:139) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
-	at noobanidus.mods.lootr.block.entities.LootrChestBlockEntity.unpackLootTable(LootrChestBlockEntity.java:279) ~[lootr-forge-1.20-0.7.35.90%20(1).jar%23207!/:0.7.35.90]
-	at noobanidus.mods.lootr.data.ChestData.createInventory(ChestData.java:363) ~[lootr-forge-1.20-0.7.35.90%20(1).jar%23207!/:0.7.35.90]
-	at noobanidus.mods.lootr.data.DataStorage.getInventory(DataStorage.java:338) ~[lootr-forge-1.20-0.7.35.90%20(1).jar%23207!/:0.7.35.90]
-	at noobanidus.mods.lootr.util.ChestUtil.handleLootChest(ChestUtil.java:142) ~[lootr-forge-1.20-0.7.35.90%20(1).jar%23207!/:0.7.35.90]
-	at noobanidus.mods.lootr.block.LootrChestBlock.m_6227_(LootrChestBlock.java:50) ~[lootr-forge-1.20-0.7.35.90%20(1).jar%23207!/:0.7.35.90]
-	at net.minecraft.world.level.block.state.BlockBehaviour$BlockStateBase.m_60664_(BlockBehaviour.java:778) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
-	at net.minecraft.server.level.ServerPlayerGameMode.m_7179_(ServerPlayerGameMode.java:343) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
-	at net.minecraft.server.network.ServerGamePacketListenerImpl.m_6371_(ServerGamePacketListenerImpl.java:1055) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
-	at net.minecraft.network.protocol.game.ServerboundUseItemOnPacket.m_5797_(ServerboundUseItemOnPacket.java:34) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
-	at net.minecraft.network.protocol.game.ServerboundUseItemOnPacket.m_5797_(ServerboundUseItemOnPacket.java:8) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
-	at net.minecraft.network.protocol.PacketUtils.m_263899_(PacketUtils.java:22) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
-	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
-	at net.minecraft.util.thread.BlockableEventLoop.m_6367_(BlockableEventLoop.java:156) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
-	at net.minecraft.util.thread.ReentrantBlockableEventLoop.m_6367_(ReentrantBlockableEventLoop.java:23) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
-	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:770) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
-	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:161) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
-	at net.minecraft.util.thread.BlockableEventLoop.m_7245_(BlockableEventLoop.java:130) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
-	at net.minecraft.server.MinecraftServer.m_129961_(MinecraftServer.java:753) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
-	at net.minecraft.server.MinecraftServer.m_7245_(MinecraftServer.java:747) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
-	at net.minecraft.util.thread.BlockableEventLoop.m_18699_(BlockableEventLoop.java:115) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
-	at net.minecraft.server.MinecraftServer.m_130012_(MinecraftServer.java:732) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
-	at net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:665) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
-	at net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:251) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
-	at java.lang.Thread.run(Thread.java:840) ~[?:?]
-[28Feb2025 01:59:31.515] [Server thread/ERROR] [net.minecraft.network.protocol.PacketUtils/]: Failed to handle packet net.minecraft.network.protocol.game.ServerboundUseItemOnPacket@3e18f74e, suppressing error
-java.util.NoSuchElementException: No value present
-	at java.util.Optional.get(Optional.java:143) ~[?:?]
-	at com.nyfaria.perfectplushieapi.loot.VillageLootModifier.doApply(VillageLootModifier.java:43) ~[perfectplushieapi-forge-1.20.1-0.1.1.jar%23276!/:0.1.1]
-	at net.minecraftforge.common.loot.LootModifier.apply(LootModifier.java:58) ~[forge-1.20.1-47.3.7-universal.jar%23246!/:?]
-	at net.minecraftforge.common.ForgeHooks.modifyLoot(ForgeHooks.java:1186) ~[forge-1.20.1-47.3.7-universal.jar%23246!/:?]
-	at net.minecraft.world.level.storage.loot.LootTable.m_230922_(LootTable.java:118) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
-	at net.minecraft.world.level.storage.loot.LootTable.m_287188_(LootTable.java:139) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
-	at noobanidus.mods.lootr.block.entities.LootrChestBlockEntity.unpackLootTable(LootrChestBlockEntity.java:279) ~[lootr-forge-1.20-0.7.35.90%20(1).jar%23207!/:0.7.35.90]
-	at noobanidus.mods.lootr.data.ChestData.createInventory(ChestData.java:363) ~[lootr-forge-1.20-0.7.35.90%20(1).jar%23207!/:0.7.35.90]
-	at noobanidus.mods.lootr.data.DataStorage.getInventory(DataStorage.java:338) ~[lootr-forge-1.20-0.7.35.90%20(1).jar%23207!/:0.7.35.90]
-	at noobanidus.mods.lootr.util.ChestUtil.handleLootChest(ChestUtil.java:142) ~[lootr-forge-1.20-0.7.35.90%20(1).jar%23207!/:0.7.35.90]
-	at noobanidus.mods.lootr.block.LootrChestBlock.m_6227_(LootrChestBlock.java:50) ~[lootr-forge-1.20-0.7.35.90%20(1).jar%23207!/:0.7.35.90]
-	at net.minecraft.world.level.block.state.BlockBehaviour$BlockStateBase.m_60664_(BlockBehaviour.java:778) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
-	at net.minecraft.server.level.ServerPlayerGameMode.m_7179_(ServerPlayerGameMode.java:343) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
-	at net.minecraft.server.network.ServerGamePacketListenerImpl.m_6371_(ServerGamePacketListenerImpl.java:1055) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
-	at net.minecraft.network.protocol.game.ServerboundUseItemOnPacket.m_5797_(ServerboundUseItemOnPacket.java:34) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
-	at net.minecraft.network.protocol.game.ServerboundUseItemOnPacket.m_5797_(ServerboundUseItemOnPacket.java:8) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
-	at net.minecraft.network.protocol.PacketUtils.m_263899_(PacketUtils.java:22) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
-	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
-	at net.minecraft.util.thread.BlockableEventLoop.m_6367_(BlockableEventLoop.java:156) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
-	at net.minecraft.util.thread.ReentrantBlockableEventLoop.m_6367_(ReentrantBlockableEventLoop.java:23) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
-	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:770) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
-	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:161) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
-	at net.minecraft.util.thread.BlockableEventLoop.m_7245_(BlockableEventLoop.java:130) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
-	at net.minecraft.server.MinecraftServer.m_129961_(MinecraftServer.java:753) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
-	at net.minecraft.server.MinecraftServer.m_7245_(MinecraftServer.java:747) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
-	at net.minecraft.util.thread.BlockableEventLoop.m_18701_(BlockableEventLoop.java:139) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
-	at net.minecraft.server.MinecraftServer.m_130012_(MinecraftServer.java:733) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
-	at net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:665) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
-	at net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:251) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
-	at java.lang.Thread.run(Thread.java:840) ~[?:?]
-[28Feb2025 02:00:06.687] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: sofita has made the advancement [Crops of the Wild]
-[28Feb2025 02:00:32.675] [Server thread/ERROR] [net.minecraft.network.protocol.PacketUtils/]: Failed to handle packet net.minecraft.network.protocol.game.ServerboundUseItemOnPacket@8333419, suppressing error
-java.util.NoSuchElementException: No value present
-	at java.util.Optional.get(Optional.java:143) ~[?:?]
-	at com.nyfaria.perfectplushieapi.loot.VillageLootModifier.doApply(VillageLootModifier.java:43) ~[perfectplushieapi-forge-1.20.1-0.1.1.jar%23276!/:0.1.1]
-	at net.minecraftforge.common.loot.LootModifier.apply(LootModifier.java:58) ~[forge-1.20.1-47.3.7-universal.jar%23246!/:?]
-	at net.minecraftforge.common.ForgeHooks.modifyLoot(ForgeHooks.java:1186) ~[forge-1.20.1-47.3.7-universal.jar%23246!/:?]
-	at net.minecraft.world.level.storage.loot.LootTable.m_230922_(LootTable.java:118) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
-	at net.minecraft.world.level.storage.loot.LootTable.m_287188_(LootTable.java:139) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
-	at noobanidus.mods.lootr.block.entities.LootrChestBlockEntity.unpackLootTable(LootrChestBlockEntity.java:279) ~[lootr-forge-1.20-0.7.35.90%20(1).jar%23207!/:0.7.35.90]
-	at noobanidus.mods.lootr.data.ChestData.createInventory(ChestData.java:363) ~[lootr-forge-1.20-0.7.35.90%20(1).jar%23207!/:0.7.35.90]
-	at noobanidus.mods.lootr.data.DataStorage.getInventory(DataStorage.java:338) ~[lootr-forge-1.20-0.7.35.90%20(1).jar%23207!/:0.7.35.90]
-	at noobanidus.mods.lootr.util.ChestUtil.handleLootChest(ChestUtil.java:142) ~[lootr-forge-1.20-0.7.35.90%20(1).jar%23207!/:0.7.35.90]
-	at noobanidus.mods.lootr.block.LootrChestBlock.m_6227_(LootrChestBlock.java:50) ~[lootr-forge-1.20-0.7.35.90%20(1).jar%23207!/:0.7.35.90]
-	at net.minecraft.world.level.block.state.BlockBehaviour$BlockStateBase.m_60664_(BlockBehaviour.java:778) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
-	at net.minecraft.server.level.ServerPlayerGameMode.m_7179_(ServerPlayerGameMode.java:343) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
-	at net.minecraft.server.network.ServerGamePacketListenerImpl.m_6371_(ServerGamePacketListenerImpl.java:1055) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
-	at net.minecraft.network.protocol.game.ServerboundUseItemOnPacket.m_5797_(ServerboundUseItemOnPacket.java:34) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
-	at net.minecraft.network.protocol.game.ServerboundUseItemOnPacket.m_5797_(ServerboundUseItemOnPacket.java:8) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
-	at net.minecraft.network.protocol.PacketUtils.m_263899_(PacketUtils.java:22) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
-	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
-	at net.minecraft.util.thread.BlockableEventLoop.m_6367_(BlockableEventLoop.java:156) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
-	at net.minecraft.util.thread.ReentrantBlockableEventLoop.m_6367_(ReentrantBlockableEventLoop.java:23) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
-	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:770) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
-	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:161) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
-	at net.minecraft.util.thread.BlockableEventLoop.m_7245_(BlockableEventLoop.java:130) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
-	at net.minecraft.server.MinecraftServer.m_129961_(MinecraftServer.java:753) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
-	at net.minecraft.server.MinecraftServer.m_7245_(MinecraftServer.java:747) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
-	at net.minecraft.util.thread.BlockableEventLoop.m_18699_(BlockableEventLoop.java:115) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
-	at net.minecraft.server.MinecraftServer.m_130012_(MinecraftServer.java:732) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
-	at net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:665) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
-	at net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:251) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
-	at java.lang.Thread.run(Thread.java:840) ~[?:?]
-[28Feb2025 02:01:02.836] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Joaking has made the advancement [Close Quarters]
-[28Feb2025 02:01:29.070] [Server thread/ERROR] [net.minecraft.network.protocol.PacketUtils/]: Failed to handle packet net.minecraft.network.protocol.game.ServerboundUseItemOnPacket@68028ff6, suppressing error
-java.util.NoSuchElementException: No value present
-	at java.util.Optional.get(Optional.java:143) ~[?:?]
-	at com.nyfaria.perfectplushieapi.loot.VillageLootModifier.doApply(VillageLootModifier.java:43) ~[perfectplushieapi-forge-1.20.1-0.1.1.jar%23276!/:0.1.1]
-	at net.minecraftforge.common.loot.LootModifier.apply(LootModifier.java:58) ~[forge-1.20.1-47.3.7-universal.jar%23246!/:?]
-	at net.minecraftforge.common.ForgeHooks.modifyLoot(ForgeHooks.java:1186) ~[forge-1.20.1-47.3.7-universal.jar%23246!/:?]
-	at net.minecraft.world.level.storage.loot.LootTable.m_230922_(LootTable.java:118) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
-	at net.minecraft.world.level.storage.loot.LootTable.m_287188_(LootTable.java:139) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
-	at noobanidus.mods.lootr.block.entities.LootrChestBlockEntity.unpackLootTable(LootrChestBlockEntity.java:279) ~[lootr-forge-1.20-0.7.35.90%20(1).jar%23207!/:0.7.35.90]
-	at noobanidus.mods.lootr.data.ChestData.createInventory(ChestData.java:363) ~[lootr-forge-1.20-0.7.35.90%20(1).jar%23207!/:0.7.35.90]
-	at noobanidus.mods.lootr.data.DataStorage.getInventory(DataStorage.java:338) ~[lootr-forge-1.20-0.7.35.90%20(1).jar%23207!/:0.7.35.90]
-	at noobanidus.mods.lootr.util.ChestUtil.handleLootChest(ChestUtil.java:142) ~[lootr-forge-1.20-0.7.35.90%20(1).jar%23207!/:0.7.35.90]
-	at noobanidus.mods.lootr.block.LootrChestBlock.m_6227_(LootrChestBlock.java:50) ~[lootr-forge-1.20-0.7.35.90%20(1).jar%23207!/:0.7.35.90]
-	at net.minecraft.world.level.block.state.BlockBehaviour$BlockStateBase.m_60664_(BlockBehaviour.java:778) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
-	at net.minecraft.server.level.ServerPlayerGameMode.m_7179_(ServerPlayerGameMode.java:343) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
-	at net.minecraft.server.network.ServerGamePacketListenerImpl.m_6371_(ServerGamePacketListenerImpl.java:1055) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
-	at net.minecraft.network.protocol.game.ServerboundUseItemOnPacket.m_5797_(ServerboundUseItemOnPacket.java:34) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
-	at net.minecraft.network.protocol.game.ServerboundUseItemOnPacket.m_5797_(ServerboundUseItemOnPacket.java:8) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
-	at net.minecraft.network.protocol.PacketUtils.m_263899_(PacketUtils.java:22) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
-	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
-	at net.minecraft.util.thread.BlockableEventLoop.m_6367_(BlockableEventLoop.java:156) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
-	at net.minecraft.util.thread.ReentrantBlockableEventLoop.m_6367_(ReentrantBlockableEventLoop.java:23) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
-	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:770) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
-	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:161) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
-	at net.minecraft.util.thread.BlockableEventLoop.m_7245_(BlockableEventLoop.java:130) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
-	at net.minecraft.server.MinecraftServer.m_129961_(MinecraftServer.java:753) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
-	at net.minecraft.server.MinecraftServer.m_7245_(MinecraftServer.java:747) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
-	at net.minecraft.util.thread.BlockableEventLoop.m_18701_(BlockableEventLoop.java:139) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
-	at net.minecraft.server.MinecraftServer.m_130012_(MinecraftServer.java:733) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
-	at net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:665) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
-	at net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:251) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
-	at java.lang.Thread.run(Thread.java:840) ~[?:?]
-[28Feb2025 02:02:16.975] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Joaking has made the advancement [Alex's Mobs]
-[28Feb2025 02:02:44.079] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Joaking has made the advancement [Barrel Booty]
-[28Feb2025 02:06:27.011] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Joaking has made the advancement [Stone Age]
-[28Feb2025 02:08:30.718] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Joaking> :peped:
-[28Feb2025 02:08:43.585] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Joaking has made the advancement [Getting an Upgrade]
-[28Feb2025 02:12:49.308] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: sofita has made the advancement [Stone Age]
-[28Feb2025 02:15:19.735] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: sofita has made the advancement [Getting an Upgrade]
-[28Feb2025 02:15:29.558] [Server thread/ERROR] [net.minecraft.network.protocol.PacketUtils/]: Failed to handle packet net.minecraft.network.protocol.game.ServerboundUseItemOnPacket@35766ed5, suppressing error
-java.util.NoSuchElementException: No value present
-	at java.util.Optional.get(Optional.java:143) ~[?:?]
-	at com.nyfaria.perfectplushieapi.loot.VillageLootModifier.doApply(VillageLootModifier.java:43) ~[perfectplushieapi-forge-1.20.1-0.1.1.jar%23276!/:0.1.1]
-	at net.minecraftforge.common.loot.LootModifier.apply(LootModifier.java:58) ~[forge-1.20.1-47.3.7-universal.jar%23246!/:?]
-	at net.minecraftforge.common.ForgeHooks.modifyLoot(ForgeHooks.java:1186) ~[forge-1.20.1-47.3.7-universal.jar%23246!/:?]
-	at net.minecraft.world.level.storage.loot.LootTable.m_230922_(LootTable.java:118) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
-	at net.minecraft.world.level.storage.loot.LootTable.m_287188_(LootTable.java:139) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
-	at noobanidus.mods.lootr.block.entities.LootrBarrelBlockEntity.unpackLootTable(LootrBarrelBlockEntity.java:165) ~[lootr-forge-1.20-0.7.35.90%20(1).jar%23207!/:0.7.35.90]
-	at noobanidus.mods.lootr.data.ChestData.createInventory(ChestData.java:363) ~[lootr-forge-1.20-0.7.35.90%20(1).jar%23207!/:0.7.35.90]
-	at noobanidus.mods.lootr.data.DataStorage.getInventory(DataStorage.java:338) ~[lootr-forge-1.20-0.7.35.90%20(1).jar%23207!/:0.7.35.90]
-	at noobanidus.mods.lootr.util.ChestUtil.handleLootChest(ChestUtil.java:142) ~[lootr-forge-1.20-0.7.35.90%20(1).jar%23207!/:0.7.35.90]
-	at noobanidus.mods.lootr.block.LootrBarrelBlock.m_6227_(LootrBarrelBlock.java:54) ~[lootr-forge-1.20-0.7.35.90%20(1).jar%23207!/:0.7.35.90]
-	at net.minecraft.world.level.block.state.BlockBehaviour$BlockStateBase.m_60664_(BlockBehaviour.java:778) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
-	at net.minecraft.server.level.ServerPlayerGameMode.m_7179_(ServerPlayerGameMode.java:343) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
-	at net.minecraft.server.network.ServerGamePacketListenerImpl.m_6371_(ServerGamePacketListenerImpl.java:1055) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
-	at net.minecraft.network.protocol.game.ServerboundUseItemOnPacket.m_5797_(ServerboundUseItemOnPacket.java:34) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
-	at net.minecraft.network.protocol.game.ServerboundUseItemOnPacket.m_5797_(ServerboundUseItemOnPacket.java:8) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
-	at net.minecraft.network.protocol.PacketUtils.m_263899_(PacketUtils.java:22) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
-	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
-	at net.minecraft.util.thread.BlockableEventLoop.m_6367_(BlockableEventLoop.java:156) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
-	at net.minecraft.util.thread.ReentrantBlockableEventLoop.m_6367_(ReentrantBlockableEventLoop.java:23) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
-	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:770) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
-	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:161) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
-	at net.minecraft.util.thread.BlockableEventLoop.m_7245_(BlockableEventLoop.java:130) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
-	at net.minecraft.server.MinecraftServer.m_129961_(MinecraftServer.java:753) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
-	at net.minecraft.server.MinecraftServer.m_7245_(MinecraftServer.java:747) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
-	at net.minecraft.util.thread.BlockableEventLoop.m_18699_(BlockableEventLoop.java:115) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
-	at net.minecraft.server.MinecraftServer.m_130012_(MinecraftServer.java:732) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
-	at net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:665) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
-	at net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:251) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
-	at java.lang.Thread.run(Thread.java:840) ~[?:?]
-[28Feb2025 02:15:35.510] [Server thread/ERROR] [net.minecraft.network.protocol.PacketUtils/]: Failed to handle packet net.minecraft.network.protocol.game.ServerboundUseItemOnPacket@6d2c0145, suppressing error
-java.util.NoSuchElementException: No value present
-	at java.util.Optional.get(Optional.java:143) ~[?:?]
-	at com.nyfaria.perfectplushieapi.loot.VillageLootModifier.doApply(VillageLootModifier.java:43) ~[perfectplushieapi-forge-1.20.1-0.1.1.jar%23276!/:0.1.1]
-	at net.minecraftforge.common.loot.LootModifier.apply(LootModifier.java:58) ~[forge-1.20.1-47.3.7-universal.jar%23246!/:?]
-	at net.minecraftforge.common.ForgeHooks.modifyLoot(ForgeHooks.java:1186) ~[forge-1.20.1-47.3.7-universal.jar%23246!/:?]
-	at net.minecraft.world.level.storage.loot.LootTable.m_230922_(LootTable.java:118) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
-	at net.minecraft.world.level.storage.loot.LootTable.m_287188_(LootTable.java:139) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
-	at noobanidus.mods.lootr.block.entities.LootrBarrelBlockEntity.unpackLootTable(LootrBarrelBlockEntity.java:165) ~[lootr-forge-1.20-0.7.35.90%20(1).jar%23207!/:0.7.35.90]
-	at noobanidus.mods.lootr.data.ChestData.createInventory(ChestData.java:363) ~[lootr-forge-1.20-0.7.35.90%20(1).jar%23207!/:0.7.35.90]
-	at noobanidus.mods.lootr.data.DataStorage.getInventory(DataStorage.java:338) ~[lootr-forge-1.20-0.7.35.90%20(1).jar%23207!/:0.7.35.90]
-	at noobanidus.mods.lootr.util.ChestUtil.handleLootChest(ChestUtil.java:142) ~[lootr-forge-1.20-0.7.35.90%20(1).jar%23207!/:0.7.35.90]
-	at noobanidus.mods.lootr.block.LootrBarrelBlock.m_6227_(LootrBarrelBlock.java:54) ~[lootr-forge-1.20-0.7.35.90%20(1).jar%23207!/:0.7.35.90]
-	at net.minecraft.world.level.block.state.BlockBehaviour$BlockStateBase.m_60664_(BlockBehaviour.java:778) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
-	at net.minecraft.server.level.ServerPlayerGameMode.m_7179_(ServerPlayerGameMode.java:343) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
-	at net.minecraft.server.network.ServerGamePacketListenerImpl.m_6371_(ServerGamePacketListenerImpl.java:1055) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
-	at net.minecraft.network.protocol.game.ServerboundUseItemOnPacket.m_5797_(ServerboundUseItemOnPacket.java:34) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
-	at net.minecraft.network.protocol.game.ServerboundUseItemOnPacket.m_5797_(ServerboundUseItemOnPacket.java:8) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
-	at net.minecraft.network.protocol.PacketUtils.m_263899_(PacketUtils.java:22) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
-	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
-	at net.minecraft.util.thread.BlockableEventLoop.m_6367_(BlockableEventLoop.java:156) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
-	at net.minecraft.util.thread.ReentrantBlockableEventLoop.m_6367_(ReentrantBlockableEventLoop.java:23) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
-	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:770) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
-	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:161) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
-	at net.minecraft.util.thread.BlockableEventLoop.m_7245_(BlockableEventLoop.java:130) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
-	at net.minecraft.server.MinecraftServer.m_129961_(MinecraftServer.java:753) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
-	at net.minecraft.server.MinecraftServer.m_7245_(MinecraftServer.java:747) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
-	at net.minecraft.util.thread.BlockableEventLoop.m_18699_(BlockableEventLoop.java:115) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
-	at net.minecraft.server.MinecraftServer.m_130012_(MinecraftServer.java:732) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
-	at net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:665) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
-	at net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:251) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
-	at java.lang.Thread.run(Thread.java:840) ~[?:?]
-[28Feb2025 02:15:42.063] [Server thread/ERROR] [net.minecraft.network.protocol.PacketUtils/]: Failed to handle packet net.minecraft.network.protocol.game.ServerboundUseItemOnPacket@968f781, suppressing error
-java.util.NoSuchElementException: No value present
-	at java.util.Optional.get(Optional.java:143) ~[?:?]
-	at com.nyfaria.perfectplushieapi.loot.VillageLootModifier.doApply(VillageLootModifier.java:43) ~[perfectplushieapi-forge-1.20.1-0.1.1.jar%23276!/:0.1.1]
-	at net.minecraftforge.common.loot.LootModifier.apply(LootModifier.java:58) ~[forge-1.20.1-47.3.7-universal.jar%23246!/:?]
-	at net.minecraftforge.common.ForgeHooks.modifyLoot(ForgeHooks.java:1186) ~[forge-1.20.1-47.3.7-universal.jar%23246!/:?]
-	at net.minecraft.world.level.storage.loot.LootTable.m_230922_(LootTable.java:118) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
-	at net.minecraft.world.level.storage.loot.LootTable.m_287188_(LootTable.java:139) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
-	at noobanidus.mods.lootr.block.entities.LootrChestBlockEntity.unpackLootTable(LootrChestBlockEntity.java:279) ~[lootr-forge-1.20-0.7.35.90%20(1).jar%23207!/:0.7.35.90]
-	at noobanidus.mods.lootr.data.ChestData.createInventory(ChestData.java:363) ~[lootr-forge-1.20-0.7.35.90%20(1).jar%23207!/:0.7.35.90]
-	at noobanidus.mods.lootr.data.DataStorage.getInventory(DataStorage.java:338) ~[lootr-forge-1.20-0.7.35.90%20(1).jar%23207!/:0.7.35.90]
-	at noobanidus.mods.lootr.util.ChestUtil.handleLootChest(ChestUtil.java:142) ~[lootr-forge-1.20-0.7.35.90%20(1).jar%23207!/:0.7.35.90]
-	at noobanidus.mods.lootr.block.LootrChestBlock.m_6227_(LootrChestBlock.java:50) ~[lootr-forge-1.20-0.7.35.90%20(1).jar%23207!/:0.7.35.90]
-	at net.minecraft.world.level.block.state.BlockBehaviour$BlockStateBase.m_60664_(BlockBehaviour.java:778) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
-	at net.minecraft.server.level.ServerPlayerGameMode.m_7179_(ServerPlayerGameMode.java:343) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
-	at net.minecraft.server.network.ServerGamePacketListenerImpl.m_6371_(ServerGamePacketListenerImpl.java:1055) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
-	at net.minecraft.network.protocol.game.ServerboundUseItemOnPacket.m_5797_(ServerboundUseItemOnPacket.java:34) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
-	at net.minecraft.network.protocol.game.ServerboundUseItemOnPacket.m_5797_(ServerboundUseItemOnPacket.java:8) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
-	at net.minecraft.network.protocol.PacketUtils.m_263899_(PacketUtils.java:22) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
-	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
-	at net.minecraft.util.thread.BlockableEventLoop.m_6367_(BlockableEventLoop.java:156) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
-	at net.minecraft.util.thread.ReentrantBlockableEventLoop.m_6367_(ReentrantBlockableEventLoop.java:23) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
-	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:770) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
-	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:161) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
-	at net.minecraft.util.thread.BlockableEventLoop.m_7245_(BlockableEventLoop.java:130) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
-	at net.minecraft.server.MinecraftServer.m_129961_(MinecraftServer.java:753) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
-	at net.minecraft.server.MinecraftServer.m_7245_(MinecraftServer.java:747) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
-	at net.minecraft.util.thread.BlockableEventLoop.m_18701_(BlockableEventLoop.java:139) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
-	at net.minecraft.server.MinecraftServer.m_130012_(MinecraftServer.java:733) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
-	at net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:665) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
-	at net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:251) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
-	at java.lang.Thread.run(Thread.java:840) ~[?:?]
-[28Feb2025 02:16:46.259] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Joaking has made the advancement [Penteconter]
-[28Feb2025 02:18:40.957] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: sofita has made the advancement [Monster Hunter]
-[28Feb2025 02:18:50.679] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Joaking has made the advancement [Acquire Hardware]
-[28Feb2025 02:19:59.407] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <sofita> :blobcatcaged:
-[28Feb2025 02:20:25.262] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Joaking> :blobcatninja:
-[28Feb2025 02:20:53.110] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: sofita has made the advancement [Acquire Hardware]
-[28Feb2025 02:21:05.705] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: sofita has made the advancement [Isn't It Iron Pick]
-[28Feb2025 02:30:00.552] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Joaking fell from a high place
-[28Feb2025 02:30:09.008] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Joaking fell from a high place
-[28Feb2025 02:42:32.904] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Joaking> :monkey_face::monkey_face::monkey_face:
-[28Feb2025 02:46:35.266] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Joaking has made the advancement [Isn't It Iron Pick]
-[28Feb2025 02:46:42.007] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: sofita was doomed to fall by Skeleton
-[28Feb2025 02:59:48.929] [Worker-Main-1/WARN] [lithostitched/]: Non-existent template pool reference: ctov:village/bounty/plains
-[28Feb2025 02:59:48.935] [Worker-Main-1/WARN] [lithostitched/]: Non-existent template pool reference: ctov:village/waystone/normal
-[28Feb2025 02:59:48.938] [Worker-Main-1/WARN] [lithostitched/]: Non-existent template pool reference: ctov:village/vampirism/totem
-[28Feb2025 03:04:49.726] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Joaking> :blobcatnight:
-[28Feb2025 03:15:51.169] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Joaking> :blobyes::blobyes:
-[28Feb2025 03:20:24.527] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Joaking: Saved the game]
-[28Feb2025 03:37:21.661] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Joaking> :catjam:
-[28Feb2025 03:37:31.960] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Joaking has made the advancement [Take Aim]
-[28Feb2025 03:40:04.950] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Joaking: Saved the game]
-[28Feb2025 03:41:51.260] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Joaking lost connection: Disconnected
-[28Feb2025 03:41:51.261] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Joaking left the game
-[28Feb2025 03:41:51.319] [Server thread/WARN] [net.minecraft.network.Connection/]: handleDisconnection() called twice
-[28Feb2025 03:42:30.456] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Unknown or incomplete command, see below for error
-[28Feb2025 03:42:30.478] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: a<--[HERE]
-[28Feb2025 03:43:07.162] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Joaking[/127.17.85.78:49303] logged in with entity id 32386 at (-1003.3000000119209, 62.0, 1069.300000011921)
-[28Feb2025 03:43:07.191] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Joaking joined the game
-[28Feb2025 03:43:07.233] [Server thread/INFO] [Jade/]: Syncing config to Joaking (bb25bdb7-3aaa-3db7-b895-6ae3167c8512)
-[28Feb2025 03:43:57.822] [Server thread/ERROR] [net.minecraft.network.protocol.PacketUtils/]: Failed to handle packet net.minecraft.network.protocol.game.ServerboundUseItemOnPacket@39b588ce, suppressing error
-java.util.NoSuchElementException: No value present
-	at java.util.Optional.get(Optional.java:143) ~[?:?]
-	at com.nyfaria.perfectplushieapi.loot.VillageLootModifier.doApply(VillageLootModifier.java:43) ~[perfectplushieapi-forge-1.20.1-0.1.1.jar%23276!/:0.1.1]
-	at net.minecraftforge.common.loot.LootModifier.apply(LootModifier.java:58) ~[forge-1.20.1-47.3.7-universal.jar%23246!/:?]
-	at net.minecraftforge.common.ForgeHooks.modifyLoot(ForgeHooks.java:1186) ~[forge-1.20.1-47.3.7-universal.jar%23246!/:?]
-	at net.minecraft.world.level.storage.loot.LootTable.m_230922_(LootTable.java:118) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
-	at net.minecraft.world.level.storage.loot.LootTable.m_287188_(LootTable.java:139) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
-	at noobanidus.mods.lootr.block.entities.LootrChestBlockEntity.unpackLootTable(LootrChestBlockEntity.java:279) ~[lootr-forge-1.20-0.7.35.90%20(1).jar%23207!/:0.7.35.90]
-	at noobanidus.mods.lootr.data.ChestData.createInventory(ChestData.java:363) ~[lootr-forge-1.20-0.7.35.90%20(1).jar%23207!/:0.7.35.90]
-	at noobanidus.mods.lootr.data.DataStorage.getInventory(DataStorage.java:338) ~[lootr-forge-1.20-0.7.35.90%20(1).jar%23207!/:0.7.35.90]
-	at noobanidus.mods.lootr.util.ChestUtil.handleLootChest(ChestUtil.java:142) ~[lootr-forge-1.20-0.7.35.90%20(1).jar%23207!/:0.7.35.90]
-	at noobanidus.mods.lootr.block.LootrChestBlock.m_6227_(LootrChestBlock.java:50) ~[lootr-forge-1.20-0.7.35.90%20(1).jar%23207!/:0.7.35.90]
-	at net.minecraft.world.level.block.state.BlockBehaviour$BlockStateBase.m_60664_(BlockBehaviour.java:778) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
-	at net.minecraft.server.level.ServerPlayerGameMode.m_7179_(ServerPlayerGameMode.java:343) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
-	at net.minecraft.server.network.ServerGamePacketListenerImpl.m_6371_(ServerGamePacketListenerImpl.java:1055) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
-	at net.minecraft.network.protocol.game.ServerboundUseItemOnPacket.m_5797_(ServerboundUseItemOnPacket.java:34) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
-	at net.minecraft.network.protocol.game.ServerboundUseItemOnPacket.m_5797_(ServerboundUseItemOnPacket.java:8) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
-	at net.minecraft.network.protocol.PacketUtils.m_263899_(PacketUtils.java:22) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
-	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
-	at net.minecraft.util.thread.BlockableEventLoop.m_6367_(BlockableEventLoop.java:156) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
-	at net.minecraft.util.thread.ReentrantBlockableEventLoop.m_6367_(ReentrantBlockableEventLoop.java:23) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
-	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:770) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
-	at net.minecraft.server.MinecraftServer.m_6367_(MinecraftServer.java:161) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
-	at net.minecraft.util.thread.BlockableEventLoop.m_7245_(BlockableEventLoop.java:130) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
-	at net.minecraft.server.MinecraftServer.m_129961_(MinecraftServer.java:753) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
-	at net.minecraft.server.MinecraftServer.m_7245_(MinecraftServer.java:747) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
-	at net.minecraft.util.thread.BlockableEventLoop.m_18699_(BlockableEventLoop.java:115) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
-	at net.minecraft.server.MinecraftServer.m_130012_(MinecraftServer.java:732) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
-	at net.minecraft.server.MinecraftServer.m_130011_(MinecraftServer.java:665) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
-	at net.minecraft.server.MinecraftServer.m_206580_(MinecraftServer.java:251) ~[server-1.20.1-20230612.114412-srg.jar%23241!/:?]
-	at java.lang.Thread.run(Thread.java:840) ~[?:?]
-[28Feb2025 03:54:58.296] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Joaking was slain by Iron Golem
-[28Feb2025 04:00:53.771] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Joaking> :scyes:
-[28Feb2025 04:01:50.558] [Server thread/INFO] [net.minecraft.world.entity.npc.Villager/]: Villager Villager['Nitwit'/26935, l='ServerLevel[world]', x=-999.82, y=117.00, z=1207.16] died, message: 'Nitwit was shot by Pillager'
-[28Feb2025 04:02:37.444] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: sofita has made the advancement [Voluntary Exile]
-[28Feb2025 04:02:59.415] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Joaking: Removed every effect from sofita]
-[28Feb2025 04:04:18.961] [Server thread/WARN] [net.minecraft.server.level.ServerPlayerGameMode/]: Mismatch in destroy block pos: BlockPos{x=-955, y=102, z=1246} BlockPos{x=-956, y=102, z=1246}
-[28Feb2025 04:04:40.405] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: sofita was slain by Forest Mojo
-[28Feb2025 04:12:21.197] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Joaking> :mlembig:
-[28Feb2025 04:47:11.507] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Joaking> :catjam:
-[28Feb2025 04:50:03.113] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: sofita has made the advancement [Close Quarters]
-[28Feb2025 04:50:21.767] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: sofita has made the advancement [Barrel Booty]
+[01Mar2025 04:47:22.427] [main/WARN] [net.minecraft.world.level.storage.loot.LootDataManager/]: Datapack tried to redefine minecraft:empty loot table, ignoring
+[01Mar2025 04:47:22.926] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 26 recipes
+[01Mar2025 04:47:23.130] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 4398 advancements
+[01Mar2025 04:47:23.254] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 11 curio slots
+[01Mar2025 04:47:23.260] [main/ERROR] [top.theillusivec4.curios.Curios/]: talisman is not a registered slot type!
+[01Mar2025 04:47:23.262] [main/INFO] [top.theillusivec4.curios.Curios/]: Loaded 1 curio entities
+[01Mar2025 04:47:23.317] [main/WARN] [net.minecraft.core.MappedRegistry/]: Not all defined tags for registry ResourceKey[minecraft:root / minecraft:worldgen/biome] are present in data pack: legendarycreatures:has_baby_scorpion, legendarycreatures:has_corpse_eater, legendarycreatures:has_desert_mojo, legendarycreatures:has_forest_mojo, legendarycreatures:has_scarecrow
+[01Mar2025 04:47:25.220] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.20.1
+[01Mar2025 04:47:25.221] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[01Mar2025 04:47:25.221] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[01Mar2025 04:47:25.221] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[01Mar2025 04:47:25.541] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[01Mar2025 04:47:25.567] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using epoll channel type
+[01Mar2025 04:47:25.644] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[01Mar2025 04:47:25.645] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
+[01Mar2025 04:47:25.645] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[01Mar2025 04:47:25.645] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
+[01Mar2025 04:47:25.870] [Server thread/INFO] [Framework/]: Loading server configs...
+[01Mar2025 04:47:25.883] [Server thread/INFO] [terrablender/]: Initialized TerraBlender biomes for level stem minecraft:the_nether
+[01Mar2025 04:47:26.715] [Server thread/INFO] [terrablender/]: Initialized TerraBlender biomes for level stem minecraft:overworld
+[01Mar2025 04:47:26.720] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[01Mar2025 04:47:32.496] [Server thread/INFO] [net.regions_unexplored.RegionsUnexploredMod/]: Loading dimension "minecraft:the_nether" with biome source: "minecraft:multi_noise".
+[01Mar2025 04:47:32.498] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[01Mar2025 04:47:37.008] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[01Mar2025 04:47:37.039] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[01Mar2025 04:47:37.048] [Worker-Main-3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[01Mar2025 04:47:37.059] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[01Mar2025 04:47:37.070] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[01Mar2025 04:47:37.071] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[01Mar2025 04:47:37.072] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[01Mar2025 04:47:37.073] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[01Mar2025 04:47:37.074] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[01Mar2025 04:47:37.075] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[01Mar2025 04:47:37.499] [Worker-Main-1/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 2%
+[01Mar2025 04:47:37.999] [Worker-Main-2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 56%
+[01Mar2025 04:47:38.282] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 5783 ms
+[01Mar2025 04:47:38.283] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (12.624s)! For help, type "help"
+[01Mar2025 04:47:38.335] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[01Mar2025 04:47:38.385] [Server thread/INFO] [net.bettercombat.logic.WeaponRegistry/]: Encoded Weapon Attribute registry size (with package overhead): 55543 bytes (in 6 string chunks with the size of 10000)
+[01Mar2025 04:48:49.646] [Server thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class net.minecraft.world.entity.player.Player from class tschipp.carryon.common.carry.CarryOnDataManager
+[01Mar2025 04:48:49.783] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Joaking[/127.17.85.78:44579] logged in with entity id 73 at (-984.1960731547256, 117.0, 1185.7574685899876)
+[01Mar2025 04:48:49.825] [Server thread/INFO] [Modonomicon/]: Building books ...
+[01Mar2025 04:48:49.834] [Server thread/INFO] [Modonomicon/]: Books built.
+[01Mar2025 04:48:49.930] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Joaking joined the game
+[01Mar2025 04:48:50.094] [Server thread/INFO] [Jade/]: Syncing config to Joaking (bb25bdb7-3aaa-3db7-b895-6ae3167c8512)
+[01Mar2025 04:48:52.377] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2640ms or 52 ticks behind
+[01Mar2025 04:50:56.638] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: sofita[/127.144.23.93:46295] logged in with entity id 729 at (-982.4710767369382, 117.0, 1174.3283875161026)
+[01Mar2025 04:50:56.676] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: sofita joined the game
+[01Mar2025 04:50:56.775] [Server thread/INFO] [Jade/]: Syncing config to sofita (9c068b3a-05d0-3a86-a467-4310007c24a3)
+[01Mar2025 04:51:57.465] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Not Secure] <Joaking> :bongocat:
