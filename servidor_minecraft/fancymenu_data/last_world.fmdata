@@ -1,0 +1,7 @@
+type = last_world
+
+last_world {
+  is_server = false
+  world = C:/Users/joaqu/AppData/Roaming/.minecraft/modpacks/2dcdc87b-c2f5-3093-af6c-1e1780f03e22/saves/Mundo nuevo
+}
+

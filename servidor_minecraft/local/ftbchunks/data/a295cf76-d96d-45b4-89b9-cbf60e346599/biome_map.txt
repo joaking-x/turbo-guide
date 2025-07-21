@@ -1,0 +1,11 @@
+#556 minecraft:beach
+#575 byg:cardinal_tundra
+#3AA byg:frosted_taiga
+#292 minecraft:frozen_ocean
+#3A0 minecraft:frozen_river
+#154 minecraft:ice_spikes
+#700 atmospheric:kousa_jungle
+#72D minecraft:snowy_beach
+#4E5 minecraft:snowy_plains
+#294 atmospheric:snowy_scrubland
+#340 minecraft:snowy_taiga
